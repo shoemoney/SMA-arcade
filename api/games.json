@@ -1,0 +1,12 @@
+{
+  "last-engineer": {
+    "title": "Last Engineer",
+    "order": "highest",
+    "limit": 10
+  },
+  "smtd": {
+    "title": "ShoeMoney Tower Defense",
+    "order": "highest",
+    "limit": 10
+  }
+}

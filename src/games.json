@@ -1,0 +1,20 @@
+[
+  {
+    "slug": "last-engineer",
+    "title": "Last Engineer",
+    "description": "One engineer. No backup. An overrun subway and one very bad night. How long can you hold the line?",
+    "preview": "/brand/last-engineer-gameplay.gif",
+    "poster": "/brand/last-engineer-gameplay.png",
+    "href": "/last-engineer/",
+    "genre": "Survival shooter"
+  },
+  {
+    "slug": "smtd",
+    "title": "ShoeMoney Tower Defense",
+    "description": "Six soldiers. Thirty waves. One outpost. Build your squad, upgrade your firepower, and call in an airstrike when the line is about to break.",
+    "genre": "Military tower defense",
+    "preview": "/brand/smtd-gameplay.gif",
+    "poster": "/brand/smtd-gameplay.png",
+    "href": "/smtd/"
+  }
+]

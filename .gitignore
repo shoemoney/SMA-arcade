@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.env
+*.sqlite*
+*.log
+ops/game-sources.json
+
+# Deployment tooling: hardcodes the production host, the deploy key path and the service layout.
+# Nothing secret in the cryptographic sense, but it is a map of the box and of no use in a fork.
+ops/
+
+# Python bytecode from the excluded tooling
+__pycache__/
+*.pyc

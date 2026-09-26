@@ -1,0 +1,13 @@
+The MIT license applies to the original arcade source: the Vue frontend, the score API, and
+the ops-independent tooling in this repository.
+
+ShoeMoney names, logos, the Jeremy Schoemaker likeness, and branded artwork are NOT licensed as
+trademarks under MIT. They are included so the site builds and runs as shipped; no endorsement or
+trademark rights are granted. Replace the branding in any independently branded fork — see
+public/brand/ and ASSET-PROVENANCE.md.
+
+Third-party code and assets retain their own licenses; see ASSET-PROVENANCE.md and the dependency
+notices in package.json.
+
+Deployment tooling is deliberately excluded from this repository. It contains host, path, and
+account details specific to the production server and is of no use to anyone else.
