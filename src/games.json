@@ -34,5 +34,14 @@
     "preview": "/brand/smduel-gameplay.gif",
     "poster": "/brand/smduel-gameplay.png",
     "href": "/smduel/"
+  },
+  {
+    "slug": "shoeateka",
+    "title": "Shoeateka",
+    "description": "A cliff, a fortress, and no weapon but your hands. Six strikes across three heights, guards who read what you keep throwing, and one bow you should not skip. How far up can you get?",
+    "genre": "Martial-arts action",
+    "preview": "/brand/shoeateka-gameplay.gif",
+    "poster": "/brand/shoeateka-gameplay.png",
+    "href": "/shoeateka/"
   }
 ]

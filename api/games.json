@@ -18,5 +18,10 @@
     "title": "ShoeMoney AutoDuel",
     "order": "highest",
     "limit": 10
+  },
+  "shoeateka": {
+    "title": "Shoeateka",
+    "order": "highest",
+    "limit": 10
   }
 }
