@@ -8,5 +8,15 @@
     "title": "ShoeMoney Tower Defense",
     "order": "highest",
     "limit": 10
+  },
+  "shoplifter": {
+    "title": "Shoplifter",
+    "order": "highest",
+    "limit": 10
+  },
+  "smduel": {
+    "title": "ShoeMoney AutoDuel",
+    "order": "highest",
+    "limit": 10
   }
 }

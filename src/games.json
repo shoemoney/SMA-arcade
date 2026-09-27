@@ -16,5 +16,23 @@
     "preview": "/brand/smtd-gameplay.gif",
     "poster": "/brand/smtd-gameplay.png",
     "href": "/smtd/"
+  },
+  {
+    "slug": "shoplifter",
+    "title": "Shoplifter",
+    "description": "Twenty-four people. Eight seats. Every trip you make, the other side sends more. Kills score nothing here — only who you bring home.",
+    "genre": "Helicopter rescue",
+    "preview": "/brand/shoplifter-gameplay.gif",
+    "poster": "/brand/shoplifter-gameplay.png",
+    "href": "/shoplifter/"
+  },
+  {
+    "slug": "smduel",
+    "title": "ShoeMoney AutoDuel",
+    "description": "One car. One driver. Sixteen cities and a highway that wants you dead. Bolt on the armor, pick your guns, and win the arena before the road wins you.",
+    "genre": "Vehicular combat RPG",
+    "preview": "/brand/smduel-gameplay.gif",
+    "poster": "/brand/smduel-gameplay.png",
+    "href": "/smduel/"
   }
 ]

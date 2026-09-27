@@ -11,12 +11,18 @@ The arcade combines supplied ShoeMoney branding with Last Engineer's gameplay ca
 | `public/brand/last-engineer-gameplay.png` | Current registry poster: still gameplay capture at 960 × 600 |
 | `public/brand/last-engineer-still.png` | Earlier 1280 × 720 game screenshot from `../shoeinator-web/verify/branding/audio-rampage.png`; retained but not the active registry poster |
 | `public/brand/last-engineer-og.jpg` | 1200 × 630 share artwork, byte-identical to the game project's corresponding public asset |
+| `public/brand/smtd-gameplay.gif` | Gameplay capture recorded for the arcade from `../smtd`; 960 × 540, 54 frames |
+| `public/brand/smtd-gameplay.png` | Registry poster for ShoeMoney Tower Defense: still gameplay capture at 1280 × 720 |
+| `public/brand/shoplifter-gameplay.gif` | Gameplay capture recorded for the arcade from `../shoplifter`; 960 × 540, 61 frames |
+| `public/brand/shoplifter-gameplay.png` | Registry poster for Shoplifter: still gameplay capture at 960 × 540 |
+| `public/brand/smduel-gameplay.gif` | Gameplay capture recorded for the arcade from `../smduel`; 960 × 540, 25 frames |
+| `public/brand/smduel-gameplay.png` | Registry poster for ShoeMoney AutoDuel: still gameplay capture at 1280 × 720 |
 | `public/favicon.ico` | Byte-identical to the game project's favicon |
 | `public/favicon-32.png` | Byte-identical to the game project's 32-pixel favicon |
 | `public/apple-touch-icon.png` | Byte-identical to the game project's touch icon |
 | Font Awesome icons | Official `@fortawesome` npm packages; retain their upstream license notices |
 
-The shared game assets above resolve against `../shoeinator-web/public/`. Shared branding is not a blanket license grant for unrelated reuse; consult the game repository's licensing and asset notices when redistributing it.
+The Last Engineer rows and the favicons resolve against `../shoeinator-web/public/`. The Tower Defense, Shoplifter and AutoDuel captures were recorded for the arcade and are not byte-identical to any file in their game repositories; each game's own project remains the authority on its art. Shared branding is not a blanket license grant for unrelated reuse; consult the game repository's licensing and asset notices when redistributing it.
 
 ## Runtime presentation
 
