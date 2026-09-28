@@ -23,5 +23,10 @@
     "title": "Shoeateka",
     "order": "highest",
     "limit": 10
+  },
+  "karate-kids": {
+    "title": "SM Karate Kids: Asmongold vs HasanAbi",
+    "order": "highest",
+    "limit": 10
   }
 }

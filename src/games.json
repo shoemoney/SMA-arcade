@@ -43,5 +43,14 @@
     "preview": "/brand/shoeateka-gameplay.gif",
     "poster": "/brand/shoeateka-gameplay.png",
     "href": "/shoeateka/"
+  },
+  {
+    "slug": "karate-kids",
+    "title": "SM Karate Kids: Asmongold vs HasanAbi",
+    "description": "Two sticks, no buttons, one clean point. Asmongold in white, HasanAbi in red: read the wind-up, close the distance, and land the strike before he does. No health bars. First to two points takes the bout.",
+    "genre": "Tournament karate",
+    "preview": "/brand/karate-kids-gameplay.gif",
+    "poster": "/brand/karate-kids-gameplay.png",
+    "href": "/karate-kids/"
   }
 ]
