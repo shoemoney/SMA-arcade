@@ -1,0 +1,13 @@
+Reactorfall sound credits
+
+Rifle, pistol, shotgun: The Free Firearm Sound Library (CC0), by Ben Jaszczak, Brian Nelson, Kevin Heras, Matthew Nanney. Copied from ShoeINATOR RawAssets/Audio/Weapons with user authorization; its source recordings and credits remain intact.
+https://opengameart.org/content/the-free-firearm-sound-library
+
+RailGun_Fire1: BaggoNotes (CC0), public high-quality MP3 preview, trimmed and level adjusted.
+https://freesound.org/people/BaggoNotes/sounds/785380/
+
+Sci-Fi Sounds, Impact Sounds, UI Audio: Kenney (CC0). Individual license files are included beside this notice.
+https://kenney.nl/assets/sci-fi-sounds
+https://kenney.nl/assets/impact-sounds
+
+Original synthesized ambience and wave notification by the Reactorfall project.

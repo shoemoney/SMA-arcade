@@ -1,0 +1,39 @@
+{
+  "tiles": {
+    "ground-a": "ground-a.png",
+    "ground-b": "ground-b.png",
+    "ground-c": "ground-c.png",
+    "road-a": "road-a.png"
+  },
+  "sprites": {
+    "ally-bulwark": "ally-bulwark.png",
+    "ally-drone": "ally-drone.png",
+    "ally-engineer": "ally-engineer.png",
+    "ally-medic": "ally-medic.png",
+    "ally-ranger": "ally-ranger.png",
+    "ally-sharpshooter": "ally-sharpshooter.png",
+    "enemy-ashwing": "enemy-ashwing.png",
+    "enemy-behemoth": "enemy-behemoth.png",
+    "enemy-broodcarrier": "enemy-broodcarrier.png",
+    "enemy-burrower": "enemy-burrower.png",
+    "enemy-drifter": "enemy-drifter.png",
+    "enemy-ironback": "enemy-ironback.png",
+    "enemy-matriarch": "enemy-matriarch.png",
+    "enemy-screecher": "enemy-screecher.png",
+    "enemy-skitter": "enemy-skitter.png",
+    "enemy-spitter": "enemy-spitter.png",
+    "pad-a": "pad-a.png",
+    "prop-barrel": "prop-barrel.png",
+    "prop-crate": "prop-crate.png",
+    "prop-pipe": "prop-pipe.png",
+    "prop-tank": "prop-tank.png",
+    "prop-vent": "prop-vent.png",
+    "reactor-core": "reactor-core.png",
+    "tower-arc": "tower-arc.png",
+    "tower-cannon": "tower-cannon.png",
+    "tower-cryo": "tower-cryo.png",
+    "tower-gun": "tower-gun.png",
+    "tower-missile": "tower-missile.png",
+    "tower-rail": "tower-rail.png"
+  }
+}

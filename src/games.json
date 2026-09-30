@@ -20,7 +20,7 @@
   {
     "slug": "shoplifter",
     "title": "Shoplifter",
-    "description": "Twenty-four people. Eight seats. Every trip you make, the other side sends more. Kills score nothing here — only who you bring home.",
+    "description": "Twenty-four people. Eight seats. Every trip you make, the other side sends more. Kills score nothing here \u2014 only who you bring home.",
     "genre": "Helicopter rescue",
     "preview": "/brand/shoplifter-gameplay.gif",
     "poster": "/brand/shoplifter-gameplay.png",
@@ -52,5 +52,23 @@
     "preview": "/brand/karate-kids-gameplay.gif",
     "poster": "/brand/karate-kids-gameplay.png",
     "href": "/karate-kids/"
+  },
+  {
+    "slug": "reactorfall",
+    "title": "Reactorfall",
+    "description": "Defend the last reactor against endless mutant waves. Build specialized towers, command your squad, and push your score higher with every stand.",
+    "genre": "Endless tower defense",
+    "preview": "/brand/reactorfall-gameplay.gif",
+    "poster": "/brand/reactorfall-gameplay.png",
+    "href": "/reactorfall/"
+  },
+  {
+    "slug": "skat3",
+    "title": "SKAT3",
+    "description": "Port Carverton: 137 spots and a million boards to sell. Build speed down the Spillway, kickflip the half-pipe, grind the rainbow rails \u2014 and every trick is named after what the deck actually did, not what you asked it to do.",
+    "genre": "Arcade skateboarding",
+    "preview": "/brand/skat3-gameplay.gif",
+    "poster": "/brand/skat3-gameplay.png",
+    "href": "/skat3/"
   }
 ]

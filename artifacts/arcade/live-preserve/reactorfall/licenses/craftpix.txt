@@ -1,0 +1,13 @@
+Craftpix purchased asset usage note
+
+This project contains compact, transformed runtime sprites derived from assets
+in the project's purchased Craftpix packs. The original archives remain outside
+the project under ~/gameassets and are not included or redistributed here.
+
+Craftpix license information: https://craftpix.net/file-licenses/
+
+The linked license describes embedding assets in a game and restricts
+redistribution of source assets and use for AI training. This note records the
+source and intended use; it is not a substitute for the applicable license or
+proof of rights beyond that license. Review the current license before any
+separate asset redistribution.

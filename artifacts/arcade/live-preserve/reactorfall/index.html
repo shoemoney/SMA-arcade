@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#121b1a" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link rel="canonical" href="https://arcade.shoemoney.com/reactorfall/" />
+    <meta property="og:title" content="Reactorfall · ShoeMoney Arcade" />
+    <meta property="og:description" content="Defend the last reactor. Survive one more wave." />
+    <meta property="og:image" content="https://arcade.shoemoney.com/brand/reactorfall-gameplay.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://arcade.shoemoney.com/reactorfall/" />
+    <link rel="preload" href="./assets/shoemoney-logo.png" as="image" />
+    <style>
+      html,body{margin:0;background:#080c10}
+      /* Startup splash — cold industrial reactor-facility treatment, matching the
+         in-game art direction (see docs/ART-DIRECTION.md). */
+      #startup-splash{position:fixed;inset:0;z-index:10000;background:
+          radial-gradient(150% 60% at 50% 128%,rgba(67,244,232,.30) 0,rgba(45,120,132,.16) 32%,rgba(8,12,16,0) 68%),
+          radial-gradient(120% 80% at 50% 10%,rgba(20,32,40,.5) 0,rgba(8,12,16,0) 60%),
+          #080c10;display:grid;place-items:center;color:#cfdde4;font:20px/1.5 Barlow,system-ui,sans-serif;transition:opacity .28s ease;overflow:hidden}
+      /* Reactor bloom rising from the board's far end, so the lower third of
+         the splash is composed rather than dead space. */
+      #startup-splash::after{content:'';position:absolute;left:50%;bottom:-34vh;
+        width:78vh;height:78vh;transform:translateX(-50%);pointer-events:none;
+        background:radial-gradient(circle,rgba(67,244,232,.16) 0,rgba(67,244,232,.05) 38%,rgba(67,244,232,0) 66%);
+        animation:splash-bloom 3.4s ease-in-out infinite alternate}
+      @keyframes splash-bloom{from{opacity:.55;transform:translateX(-50%) scale(.94)}
+        to{opacity:1;transform:translateX(-50%) scale(1.04)}}
+      @media(prefers-reduced-motion:reduce){#startup-splash::after{animation:none;opacity:.8}}
+      #startup-splash.leaving{opacity:0;pointer-events:none}
+      #startup-splash[hidden]{display:none}
+      .startup-content{width:min(400px,80vw);text-align:center;transform:translateY(-6vh);position:relative;z-index:1}
+      .startup-logo{display:block;width:132px;height:132px;margin:0 auto 26px;filter:drop-shadow(0 6px 26px rgba(67,244,232,.28))}
+      /* Horizontal progress bar */
+      .startup-track{height:6px;border-radius:3px;background:#1b242c;overflow:hidden;width:100%;
+          box-shadow:inset 0 0 0 1px rgba(109,125,136,.34)}
+      #startup-fill{height:100%;width:0;border-radius:3px;
+          background:linear-gradient(90deg,#1f7f86 0%,#43f4e8 78%,#c8fffb 100%);
+          transition:width .2s linear;box-shadow:0 0 14px rgba(67,244,232,.55)}
+      .startup-label{display:flex;justify-content:space-between;align-items:baseline;gap:12px;
+          margin-top:14px;font-size:18px;color:#8fa3b0;letter-spacing:.02em;
+          font-family:Barlow,system-ui,-apple-system,'Segoe UI',sans-serif}
+      .startup-label{align-items:center}
+      #startup-label{line-height:1.45}
+      #startup-percent{font-family:'Barlow Condensed','Arial Narrow',system-ui,sans-serif;
+          font-size:20px;font-weight:700;color:#43f4e8;min-width:52px;text-align:right;
+          /* Match the label's line box so the larger face sits optically level
+             rather than 3px high on a shared baseline. */
+          line-height:1.45;display:flex;align-items:center;justify-content:flex-end;
+          transform:translateY(2px)}
+      /* Company attribution. Condensed face is not loaded until the app CSS
+         arrives, so a system condensed-ish fallback prevents a font flash. */
+      .startup-brand{margin-top:34px;font:600 18px/1.3 'Barlow Condensed','Arial Narrow',system-ui,sans-serif;
+          letter-spacing:.22em;text-transform:uppercase;color:#5d7180}
+      .startup-brand em{font-style:normal;color:#43f4e8}
+      .startup-game{margin-top:6px;font:700 30px/1.1 'Barlow Condensed','Arial Narrow',system-ui,sans-serif;
+          letter-spacing:.03em;color:#e6f0f4}
+      .startup-retry{margin-top:24px;padding:12px 24px;background:#1b3a3e;color:#c8fffb;
+          border:1px solid #43f4e8;border-radius:4px;font:600 20px/1.5 Barlow,sans-serif;cursor:pointer}
+      .startup-retry:hover{background:#245055}
+      @media(prefers-reduced-motion:reduce){#startup-splash,#startup-fill{transition:none}
+        .startup-logo{filter:none}}
+    </style>
+    <meta name="description" content="Defend humanity's last reactor. Build towers, command your squad, and survive endless mutant waves in Reactorfall, a ShoeMoney Arcade game." />
+    <title>Reactorfall · ShoeMoney Arcade</title>
+    <script type="module" crossorigin src="./assets/index-Dg0nFvxY.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/phaser-D3izK-R_.js">
+    <link rel="stylesheet" crossorigin href="./assets/index-BguTWdJi.css">
+  </head>
+  <body>
+    <div id="startup-splash">
+      <div class="startup-content">
+        <img class="startup-logo" src="./assets/shoemoney-logo.png" alt="ShoeMoney" width="1024" height="1024" fetchpriority="high" />
+        <div class="startup-track" id="startup-progress" role="progressbar" aria-label="Loading game assets" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><div id="startup-fill"></div></div>
+        <div class="startup-label"><span id="startup-label">Loading Reactorfall</span><span id="startup-percent">0%</span></div>
+        <p class="startup-brand">A <em>ShoeMoney</em> AI Labs Game</p>
+        <p class="startup-game">Reactorfall</p>
+      </div>
+    </div>
+    <div id="app" inert aria-hidden="true"></div>
+  </body>
+</html>
