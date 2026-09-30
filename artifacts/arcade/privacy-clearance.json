@@ -3,7 +3,7 @@
   "status": "cleared",
   "root": "/Users/shoemoney/Projects/SMA-arcade/artifacts/arcade/release-payload",
   "audience": "public_hosting",
-  "reviewer_id": "stealth-space-bunny-alpha (Amber Sinclair assistant, SKAT3 arcade release)",
+  "reviewer_id": "Amber (SKAT3 arcade release)",
   "entries": [
     {
       "path": ".",
@@ -2265,12 +2265,12 @@
       "mode": 493
     },
     {
-      "path": "public/skat3/assets/index-CmeOF5AG.js",
+      "path": "public/skat3/assets/index-Col5hctg.js",
       "kind": "file",
       "mode": 420,
-      "sha256": "9f198ff50954ab21f79b338de34fe9298afed256a3e88d7212c92169717ccd83",
+      "sha256": "bc8fb08a9851e63942a49854cd0e3ae56fef5a733c06060e20ea0887666d7646",
       "executable": false,
-      "size": 978122
+      "size": 979692
     },
     {
       "path": "public/skat3/assets/index-DCyvMRRN.css",
@@ -2297,7 +2297,7 @@
       "path": "public/skat3/index.html",
       "kind": "file",
       "mode": 420,
-      "sha256": "8bdaf1db455a79295a113bc3164b203568c2f32a3c9bd1c4e5b2a6846eb5c156",
+      "sha256": "b4083a00dcd50f4b1697aecedefde3bd12ae61779ace1e1d98019aede0c2e038",
       "executable": false,
       "size": 1971
     },
@@ -2630,7 +2630,7 @@
       "size": 283203
     }
   ],
-  "fingerprint": "403f1224c324c8b42c6f84a21f04278725def431baeb7f502771de58dac53578",
-  "decisions_sha256": "c257e4afa7eddf71b87ed969d21fa6eec742ec75bf2e8d142a26c7514048bd84",
+  "fingerprint": "21c62dfec123b64ea4222d76f9ae253675dab55022b12a831b53ca63a187aa2e",
+  "decisions_sha256": "ac77f9d6065ec68fde6a67995923430d5746d85e40812ee4ae8d5042a6bbd2c4",
   "public_identifiers": []
 }
