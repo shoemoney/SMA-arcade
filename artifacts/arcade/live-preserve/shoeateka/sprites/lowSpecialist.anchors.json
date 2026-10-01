@@ -1,0 +1,505 @@
+{
+  "bow": [
+    {
+      "frame": 0,
+      "neck": {
+        "x": 77,
+        "y": 88
+      },
+      "neckAngleDeg": 0,
+      "headZ": "front",
+      "foot": {
+        "y": 525
+      },
+      "facing": "right"
+    },
+    {
+      "frame": 1,
+      "neck": {
+        "x": 125,
+        "y": 79
+      },
+      "neckAngleDeg": 0,
+      "headZ": "front",
+      "foot": {
+        "y": 473
+      },
+      "facing": "right"
+    },
+    {
+      "frame": 2,
+      "neck": {
+        "x": 165,
+        "y": 63
+      },
+      "neckAngleDeg": 0,
+      "headZ": "front",
+      "foot": {
+        "y": 380
+      },
+      "facing": "right"
+    }
+  ],
+  "hit": [
+    {
+      "frame": 0,
+      "neck": {
+        "x": 191,
+        "y": 74
+      },
+      "neckAngleDeg": 0,
+      "headZ": "front",
+      "foot": {
+        "y": 442
+      },
+      "facing": "right"
+    },
+    {
+      "frame": 1,
+      "neck": {
+        "x": 195,
+        "y": 81
+      },
+      "neckAngleDeg": 0,
+      "headZ": "front",
+      "foot": {
+        "y": 486
+      },
+      "facing": "right"
+    }
+  ],
+  "idle": [
+    {
+      "frame": 0,
+      "neck": {
+        "x": 130,
+        "y": 58
+      },
+      "neckAngleDeg": 0,
+      "headZ": "front",
+      "foot": {
+        "y": 349
+      },
+      "facing": "right"
+    },
+    {
+      "frame": 1,
+      "neck": {
+        "x": 129,
+        "y": 59
+      },
+      "neckAngleDeg": 0,
+      "headZ": "front",
+      "foot": {
+        "y": 353
+      },
+      "facing": "right"
+    },
+    {
+      "frame": 2,
+      "neck": {
+        "x": 131,
+        "y": 59
+      },
+      "neckAngleDeg": 0,
+      "headZ": "front",
+      "foot": {
+        "y": 353
+      },
+      "facing": "right"
+    },
+    {
+      "frame": 3,
+      "neck": {
+        "x": 130,
+        "y": 58
+      },
+      "neckAngleDeg": 0,
+      "headZ": "front",
+      "foot": {
+        "y": 349
+      },
+      "facing": "right"
+    }
+  ],
+  "kickHigh": [
+    {
+      "frame": 0,
+      "neck": {
+        "x": 121,
+        "y": 77
+      },
+      "neckAngleDeg": 0,
+      "headZ": "front",
+      "foot": {
+        "y": 460
+      },
+      "facing": "right"
+    },
+    {
+      "frame": 1,
+      "neck": {
+        "x": 184,
+        "y": 88
+      },
+      "neckAngleDeg": 0,
+      "headZ": "front",
+      "foot": {
+        "y": 528
+      },
+      "facing": "right"
+    },
+    {
+      "frame": 2,
+      "neck": {
+        "x": 121,
+        "y": 77
+      },
+      "neckAngleDeg": 0,
+      "headZ": "front",
+      "foot": {
+        "y": 463
+      },
+      "facing": "right"
+    }
+  ],
+  "kickLow": [
+    {
+      "frame": 0,
+      "neck": {
+        "x": 116,
+        "y": 59
+      },
+      "neckAngleDeg": 0,
+      "headZ": "front",
+      "foot": {
+        "y": 356
+      },
+      "facing": "right"
+    },
+    {
+      "frame": 1,
+      "neck": {
+        "x": 182,
+        "y": 53
+      },
+      "neckAngleDeg": 0,
+      "headZ": "front",
+      "foot": {
+        "y": 316
+      },
+      "facing": "right"
+    },
+    {
+      "frame": 2,
+      "neck": {
+        "x": 135,
+        "y": 59
+      },
+      "neckAngleDeg": 0,
+      "headZ": "front",
+      "foot": {
+        "y": 355
+      },
+      "facing": "right"
+    }
+  ],
+  "kickMid": [
+    {
+      "frame": 0,
+      "neck": {
+        "x": 112,
+        "y": 74
+      },
+      "neckAngleDeg": 0,
+      "headZ": "front",
+      "foot": {
+        "y": 443
+      },
+      "facing": "right"
+    },
+    {
+      "frame": 1,
+      "neck": {
+        "x": 197,
+        "y": 72
+      },
+      "neckAngleDeg": 0,
+      "headZ": "front",
+      "foot": {
+        "y": 434
+      },
+      "facing": "right"
+    },
+    {
+      "frame": 2,
+      "neck": {
+        "x": 102,
+        "y": 74
+      },
+      "neckAngleDeg": 0,
+      "headZ": "front",
+      "foot": {
+        "y": 444
+      },
+      "facing": "right"
+    }
+  ],
+  "knockdown": [
+    {
+      "frame": 0,
+      "neck": {
+        "x": 128,
+        "y": 53
+      },
+      "neckAngleDeg": 0,
+      "headZ": "front",
+      "foot": {
+        "y": 319
+      },
+      "facing": "right"
+    },
+    {
+      "frame": 1,
+      "neck": {
+        "x": 149,
+        "y": 45
+      },
+      "neckAngleDeg": 0,
+      "headZ": "front",
+      "foot": {
+        "y": 267
+      },
+      "facing": "right"
+    },
+    {
+      "frame": 2,
+      "neck": {
+        "x": 156,
+        "y": 28
+      },
+      "neckAngleDeg": 0,
+      "headZ": "front",
+      "foot": {
+        "y": 167
+      },
+      "facing": "right"
+    },
+    {
+      "frame": 3,
+      "neck": {
+        "x": 172,
+        "y": 13
+      },
+      "neckAngleDeg": 0,
+      "headZ": "front",
+      "foot": {
+        "y": 75
+      },
+      "facing": "right"
+    }
+  ],
+  "punchHigh": [
+    {
+      "frame": 0,
+      "neck": {
+        "x": 175,
+        "y": 63
+      },
+      "neckAngleDeg": 0,
+      "headZ": "front",
+      "foot": {
+        "y": 376
+      },
+      "facing": "right"
+    },
+    {
+      "frame": 1,
+      "neck": {
+        "x": 197,
+        "y": 73
+      },
+      "neckAngleDeg": 0,
+      "headZ": "front",
+      "foot": {
+        "y": 435
+      },
+      "facing": "right"
+    },
+    {
+      "frame": 2,
+      "neck": {
+        "x": 169,
+        "y": 63
+      },
+      "neckAngleDeg": 0,
+      "headZ": "front",
+      "foot": {
+        "y": 376
+      },
+      "facing": "right"
+    }
+  ],
+  "punchLow": [
+    {
+      "frame": 0,
+      "neck": {
+        "x": 149,
+        "y": 50
+      },
+      "neckAngleDeg": 0,
+      "headZ": "front",
+      "foot": {
+        "y": 298
+      },
+      "facing": "right"
+    },
+    {
+      "frame": 1,
+      "neck": {
+        "x": 222,
+        "y": 43
+      },
+      "neckAngleDeg": 0,
+      "headZ": "front",
+      "foot": {
+        "y": 257
+      },
+      "facing": "right"
+    },
+    {
+      "frame": 2,
+      "neck": {
+        "x": 161,
+        "y": 55
+      },
+      "neckAngleDeg": 0,
+      "headZ": "front",
+      "foot": {
+        "y": 331
+      },
+      "facing": "right"
+    }
+  ],
+  "punchMid": [
+    {
+      "frame": 0,
+      "neck": {
+        "x": 174,
+        "y": 58
+      },
+      "neckAngleDeg": 0,
+      "headZ": "front",
+      "foot": {
+        "y": 349
+      },
+      "facing": "right"
+    },
+    {
+      "frame": 1,
+      "neck": {
+        "x": 186,
+        "y": 58
+      },
+      "neckAngleDeg": 0,
+      "headZ": "front",
+      "foot": {
+        "y": 345
+      },
+      "facing": "right"
+    },
+    {
+      "frame": 2,
+      "neck": {
+        "x": 173,
+        "y": 58
+      },
+      "neckAngleDeg": 0,
+      "headZ": "front",
+      "foot": {
+        "y": 350
+      },
+      "facing": "right"
+    }
+  ],
+  "walk": [
+    {
+      "frame": 0,
+      "neck": {
+        "x": 136,
+        "y": 57
+      },
+      "neckAngleDeg": 0,
+      "headZ": "front",
+      "foot": {
+        "y": 343
+      },
+      "facing": "right"
+    },
+    {
+      "frame": 1,
+      "neck": {
+        "x": 82,
+        "y": 57
+      },
+      "neckAngleDeg": 0,
+      "headZ": "front",
+      "foot": {
+        "y": 341
+      },
+      "facing": "right"
+    },
+    {
+      "frame": 2,
+      "neck": {
+        "x": 146,
+        "y": 57
+      },
+      "neckAngleDeg": 0,
+      "headZ": "front",
+      "foot": {
+        "y": 342
+      },
+      "facing": "right"
+    },
+    {
+      "frame": 3,
+      "neck": {
+        "x": 144,
+        "y": 56
+      },
+      "neckAngleDeg": 0,
+      "headZ": "front",
+      "foot": {
+        "y": 338
+      },
+      "facing": "right"
+    },
+    {
+      "frame": 4,
+      "neck": {
+        "x": 79,
+        "y": 57
+      },
+      "neckAngleDeg": 0,
+      "headZ": "front",
+      "foot": {
+        "y": 340
+      },
+      "facing": "right"
+    },
+    {
+      "frame": 5,
+      "neck": {
+        "x": 147,
+        "y": 57
+      },
+      "neckAngleDeg": 0,
+      "headZ": "front",
+      "foot": {
+        "y": 339
+      },
+      "facing": "right"
+    }
+  ]
+}

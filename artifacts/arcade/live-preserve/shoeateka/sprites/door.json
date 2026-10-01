@@ -1,0 +1,67 @@
+{
+  "frames": {
+    "door/boss/000": {
+      "frame": {
+        "x": 2,
+        "y": 2,
+        "w": 739,
+        "h": 500
+      },
+      "sourceSize": {
+        "w": 819,
+        "h": 560
+      },
+      "spriteSourceSize": {
+        "x": 40,
+        "y": 40,
+        "w": 739,
+        "h": 500
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "door/keep/000": {
+      "frame": {
+        "x": 743,
+        "y": 2,
+        "w": 627,
+        "h": 500
+      },
+      "sourceSize": {
+        "w": 707,
+        "h": 560
+      },
+      "spriteSourceSize": {
+        "x": 40,
+        "y": 40,
+        "w": 627,
+        "h": 500
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    }
+  },
+  "animations": {
+    "boss": [
+      "door/boss/000"
+    ],
+    "keep": [
+      "door/keep/000"
+    ]
+  },
+  "meta": {
+    "image": "door-0.webp",
+    "scale": "2",
+    "shoeateka": {
+      "fps": {
+        "boss": 12,
+        "keep": 12
+      },
+      "phaseMapped": []
+    }
+  }
+}

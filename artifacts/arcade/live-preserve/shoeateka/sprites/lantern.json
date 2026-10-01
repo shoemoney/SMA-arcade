@@ -1,0 +1,64 @@
+{
+  "frames": {
+    "lantern/variant/000": {
+      "frame": {
+        "x": 334,
+        "y": 2,
+        "w": 246,
+        "h": 479
+      },
+      "sourceSize": {
+        "w": 410,
+        "h": 560
+      },
+      "spriteSourceSize": {
+        "x": 40,
+        "y": 61,
+        "w": 246,
+        "h": 479
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "lantern/variant/001": {
+      "frame": {
+        "x": 2,
+        "y": 2,
+        "w": 330,
+        "h": 500
+      },
+      "sourceSize": {
+        "w": 410,
+        "h": 560
+      },
+      "spriteSourceSize": {
+        "x": 40,
+        "y": 40,
+        "w": 330,
+        "h": 500
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    }
+  },
+  "animations": {
+    "variant": [
+      "lantern/variant/000",
+      "lantern/variant/001"
+    ]
+  },
+  "meta": {
+    "image": "lantern-0.webp",
+    "scale": "2",
+    "shoeateka": {
+      "fps": {
+        "variant": 12
+      },
+      "phaseMapped": []
+    }
+  }
+}

@@ -1,0 +1,626 @@
+{
+  "frames": {
+    "hero/advance/000": {
+      "frame": {
+        "x": 2,
+        "y": 1505,
+        "w": 316,
+        "h": 376
+      },
+      "sourceSize": {
+        "w": 441,
+        "h": 437
+      },
+      "spriteSourceSize": {
+        "x": 40,
+        "y": 41,
+        "w": 316,
+        "h": 376
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "hero/advance/001": {
+      "frame": {
+        "x": 1031,
+        "y": 1505,
+        "w": 168,
+        "h": 374
+      },
+      "sourceSize": {
+        "w": 441,
+        "h": 437
+      },
+      "spriteSourceSize": {
+        "x": 40,
+        "y": 43,
+        "w": 168,
+        "h": 374
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "hero/advance/002": {
+      "frame": {
+        "x": 320,
+        "y": 1505,
+        "w": 346,
+        "h": 376
+      },
+      "sourceSize": {
+        "w": 441,
+        "h": 437
+      },
+      "spriteSourceSize": {
+        "x": 40,
+        "y": 41,
+        "w": 346,
+        "h": 376
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "hero/advance/003": {
+      "frame": {
+        "x": 1621,
+        "y": 1049,
+        "w": 331,
+        "h": 377
+      },
+      "sourceSize": {
+        "w": 441,
+        "h": 437
+      },
+      "spriteSourceSize": {
+        "x": 40,
+        "y": 40,
+        "w": 331,
+        "h": 377
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "hero/advance/004": {
+      "frame": {
+        "x": 1201,
+        "y": 1505,
+        "w": 158,
+        "h": 374
+      },
+      "sourceSize": {
+        "w": 441,
+        "h": 437
+      },
+      "spriteSourceSize": {
+        "x": 40,
+        "y": 43,
+        "w": 158,
+        "h": 374
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "hero/advance/005": {
+      "frame": {
+        "x": 668,
+        "y": 1505,
+        "w": 361,
+        "h": 376
+      },
+      "sourceSize": {
+        "w": 441,
+        "h": 437
+      },
+      "spriteSourceSize": {
+        "x": 40,
+        "y": 41,
+        "w": 361,
+        "h": 376
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "hero/bow/002": {
+      "frame": {
+        "x": 1368,
+        "y": 547,
+        "w": 393,
+        "h": 489
+      },
+      "sourceSize": {
+        "w": 473,
+        "h": 743
+      },
+      "spriteSourceSize": {
+        "x": 40,
+        "y": 234,
+        "w": 393,
+        "h": 489
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "hero/combatIdle/000": {
+      "frame": {
+        "x": 686,
+        "y": 547,
+        "w": 338,
+        "h": 494
+      },
+      "sourceSize": {
+        "w": 420,
+        "h": 560
+      },
+      "spriteSourceSize": {
+        "x": 40,
+        "y": 46,
+        "w": 338,
+        "h": 494
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "hero/combatIdle/001": {
+      "frame": {
+        "x": 344,
+        "y": 547,
+        "w": 340,
+        "h": 496
+      },
+      "sourceSize": {
+        "w": 420,
+        "h": 560
+      },
+      "spriteSourceSize": {
+        "x": 40,
+        "y": 44,
+        "w": 340,
+        "h": 496
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "hero/combatIdle/002": {
+      "frame": {
+        "x": 2,
+        "y": 547,
+        "w": 340,
+        "h": 500
+      },
+      "sourceSize": {
+        "w": 420,
+        "h": 560
+      },
+      "spriteSourceSize": {
+        "x": 40,
+        "y": 40,
+        "w": 340,
+        "h": 500
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "hero/combatIdle/003": {
+      "frame": {
+        "x": 1026,
+        "y": 547,
+        "w": 340,
+        "h": 494
+      },
+      "sourceSize": {
+        "w": 420,
+        "h": 560
+      },
+      "spriteSourceSize": {
+        "x": 40,
+        "y": 46,
+        "w": 340,
+        "h": 494
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "hero/doorKick/001": {
+      "frame": {
+        "x": 2,
+        "y": 2,
+        "w": 495,
+        "h": 543
+      },
+      "sourceSize": {
+        "w": 575,
+        "h": 603
+      },
+      "spriteSourceSize": {
+        "x": 40,
+        "y": 40,
+        "w": 495,
+        "h": 543
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "hero/doorKick/002": {
+      "frame": {
+        "x": 499,
+        "y": 2,
+        "w": 403,
+        "h": 540
+      },
+      "sourceSize": {
+        "w": 575,
+        "h": 603
+      },
+      "spriteSourceSize": {
+        "x": 40,
+        "y": 43,
+        "w": 403,
+        "h": 540
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "hero/hitLow/000": {
+      "frame": {
+        "x": 1275,
+        "y": 2,
+        "w": 553,
+        "h": 511
+      },
+      "sourceSize": {
+        "w": 633,
+        "h": 645
+      },
+      "spriteSourceSize": {
+        "x": 40,
+        "y": 114,
+        "w": 553,
+        "h": 511
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "hero/hitMid/000": {
+      "frame": {
+        "x": 904,
+        "y": 2,
+        "w": 369,
+        "h": 540
+      },
+      "sourceSize": {
+        "w": 449,
+        "h": 667
+      },
+      "spriteSourceSize": {
+        "x": 40,
+        "y": 107,
+        "w": 369,
+        "h": 540
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "hero/kickHigh/002": {
+      "frame": {
+        "x": 1373,
+        "y": 1049,
+        "w": 246,
+        "h": 392
+      },
+      "sourceSize": {
+        "w": 329,
+        "h": 524
+      },
+      "spriteSourceSize": {
+        "x": 40,
+        "y": 112,
+        "w": 246,
+        "h": 392
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "hero/kickHigh/003": {
+      "frame": {
+        "x": 1763,
+        "y": 547,
+        "w": 229,
+        "h": 464
+      },
+      "sourceSize": {
+        "w": 329,
+        "h": 524
+      },
+      "spriteSourceSize": {
+        "x": 40,
+        "y": 40,
+        "w": 229,
+        "h": 464
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "hero/kickMid/001": {
+      "frame": {
+        "x": 1361,
+        "y": 1505,
+        "w": 183,
+        "h": 370
+      },
+      "sourceSize": {
+        "w": 385,
+        "h": 430
+      },
+      "spriteSourceSize": {
+        "x": 40,
+        "y": 40,
+        "w": 183,
+        "h": 370
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "hero/kickMid/002": {
+      "frame": {
+        "x": 1546,
+        "y": 1505,
+        "w": 252,
+        "h": 370
+      },
+      "sourceSize": {
+        "w": 385,
+        "h": 430
+      },
+      "spriteSourceSize": {
+        "x": 40,
+        "y": 40,
+        "w": 252,
+        "h": 370
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "hero/kickMid/004": {
+      "frame": {
+        "x": 1800,
+        "y": 1505,
+        "w": 169,
+        "h": 370
+      },
+      "sourceSize": {
+        "w": 385,
+        "h": 430
+      },
+      "spriteSourceSize": {
+        "x": 40,
+        "y": 40,
+        "w": 169,
+        "h": 370
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "hero/punchHigh/003": {
+      "frame": {
+        "x": 842,
+        "y": 1049,
+        "w": 255,
+        "h": 416
+      },
+      "sourceSize": {
+        "w": 352,
+        "h": 476
+      },
+      "spriteSourceSize": {
+        "x": 40,
+        "y": 40,
+        "w": 255,
+        "h": 416
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "hero/retreat/000": {
+      "frame": {
+        "x": 2,
+        "y": 1049,
+        "w": 280,
+        "h": 454
+      },
+      "sourceSize": {
+        "w": 361,
+        "h": 514
+      },
+      "spriteSourceSize": {
+        "x": 40,
+        "y": 40,
+        "w": 280,
+        "h": 454
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "hero/retreat/001": {
+      "frame": {
+        "x": 567,
+        "y": 1049,
+        "w": 273,
+        "h": 432
+      },
+      "sourceSize": {
+        "w": 361,
+        "h": 514
+      },
+      "spriteSourceSize": {
+        "x": 40,
+        "y": 62,
+        "w": 273,
+        "h": 432
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "hero/retreat/002": {
+      "frame": {
+        "x": 1099,
+        "y": 1049,
+        "w": 272,
+        "h": 394
+      },
+      "sourceSize": {
+        "w": 361,
+        "h": 514
+      },
+      "spriteSourceSize": {
+        "x": 40,
+        "y": 100,
+        "w": 272,
+        "h": 394
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "hero/retreat/003": {
+      "frame": {
+        "x": 284,
+        "y": 1049,
+        "w": 281,
+        "h": 454
+      },
+      "sourceSize": {
+        "w": 361,
+        "h": 514
+      },
+      "spriteSourceSize": {
+        "x": 40,
+        "y": 40,
+        "w": 281,
+        "h": 454
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    }
+  },
+  "animations": {
+    "advance": [
+      "hero/advance/000",
+      "hero/advance/001",
+      "hero/advance/002",
+      "hero/advance/003",
+      "hero/advance/004",
+      "hero/advance/005"
+    ],
+    "bow": [
+      "hero/bow/002"
+    ],
+    "combatIdle": [
+      "hero/combatIdle/000",
+      "hero/combatIdle/001",
+      "hero/combatIdle/002",
+      "hero/combatIdle/003"
+    ],
+    "doorKick": [
+      "hero/doorKick/001",
+      "hero/doorKick/002"
+    ],
+    "hitLow": [
+      "hero/hitLow/000"
+    ],
+    "hitMid": [
+      "hero/hitMid/000"
+    ],
+    "kickHigh": [
+      "hero/kickHigh/002",
+      "hero/kickHigh/003"
+    ],
+    "kickMid": [
+      "hero/kickMid/001",
+      "hero/kickMid/002",
+      "hero/kickMid/004"
+    ],
+    "punchHigh": [
+      "hero/punchHigh/003"
+    ],
+    "retreat": [
+      "hero/retreat/000",
+      "hero/retreat/001",
+      "hero/retreat/002",
+      "hero/retreat/003"
+    ]
+  },
+  "meta": {
+    "image": "hero-1.webp",
+    "scale": "2",
+    "related_multi_packs": [
+      "hero.json",
+      "hero-2.json",
+      "hero-3.json"
+    ],
+    "shoeateka": {
+      "fps": {
+        "advance": 12,
+        "bow": 12,
+        "combatIdle": 12,
+        "doorKick": 12,
+        "hitLow": 12,
+        "hitMid": 12,
+        "retreat": 12
+      },
+      "phaseMapped": [
+        "kickHigh",
+        "kickMid",
+        "punchHigh"
+      ]
+    }
+  }
+}

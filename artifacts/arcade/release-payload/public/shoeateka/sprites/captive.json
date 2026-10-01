@@ -1,0 +1,168 @@
+{
+  "frames": {
+    "captive/embrace/000": {
+      "frame": {
+        "x": 465,
+        "y": 2,
+        "w": 426,
+        "h": 716
+      },
+      "sourceSize": {
+        "w": 506,
+        "h": 776
+      },
+      "spriteSourceSize": {
+        "x": 40,
+        "y": 40,
+        "w": 426,
+        "h": 716
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "captive/idle/000": {
+      "frame": {
+        "x": 1302,
+        "y": 2,
+        "w": 118,
+        "h": 470
+      },
+      "sourceSize": {
+        "w": 199,
+        "h": 530
+      },
+      "spriteSourceSize": {
+        "x": 40,
+        "y": 40,
+        "w": 118,
+        "h": 470
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "captive/idle/001": {
+      "frame": {
+        "x": 1422,
+        "y": 2,
+        "w": 119,
+        "h": 462
+      },
+      "sourceSize": {
+        "w": 199,
+        "h": 530
+      },
+      "spriteSourceSize": {
+        "x": 40,
+        "y": 48,
+        "w": 119,
+        "h": 462
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "captive/observing/000": {
+      "frame": {
+        "x": 244,
+        "y": 2,
+        "w": 219,
+        "h": 734
+      },
+      "sourceSize": {
+        "w": 299,
+        "h": 794
+      },
+      "spriteSourceSize": {
+        "x": 40,
+        "y": 40,
+        "w": 219,
+        "h": 734
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "captive/reactionDefend/000": {
+      "frame": {
+        "x": 893,
+        "y": 2,
+        "w": 407,
+        "h": 667
+      },
+      "sourceSize": {
+        "w": 487,
+        "h": 727
+      },
+      "spriteSourceSize": {
+        "x": 40,
+        "y": 40,
+        "w": 407,
+        "h": 667
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "captive/reactionRecognition/000": {
+      "frame": {
+        "x": 2,
+        "y": 2,
+        "w": 240,
+        "h": 739
+      },
+      "sourceSize": {
+        "w": 320,
+        "h": 799
+      },
+      "spriteSourceSize": {
+        "x": 40,
+        "y": 40,
+        "w": 240,
+        "h": 739
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    }
+  },
+  "animations": {
+    "embrace": [
+      "captive/embrace/000"
+    ],
+    "idle": [
+      "captive/idle/000",
+      "captive/idle/001"
+    ],
+    "observing": [
+      "captive/observing/000"
+    ],
+    "reactionDefend": [
+      "captive/reactionDefend/000"
+    ],
+    "reactionRecognition": [
+      "captive/reactionRecognition/000"
+    ]
+  },
+  "meta": {
+    "image": "captive-0.webp",
+    "scale": "2",
+    "shoeateka": {
+      "fps": {
+        "embrace": 12,
+        "idle": 12,
+        "observing": 12,
+        "reactionDefend": 12,
+        "reactionRecognition": 12
+      },
+      "phaseMapped": []
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "boss": [
+    {
+      "frame": 0,
+      "neck": {
+        "x": 370,
+        "y": 83
+      },
+      "neckAngleDeg": 0,
+      "headZ": "front",
+      "foot": {
+        "y": 500
+      },
+      "facing": "right"
+    }
+  ],
+  "keep": [
+    {
+      "frame": 0,
+      "neck": {
+        "x": 314,
+        "y": 83
+      },
+      "neckAngleDeg": 0,
+      "headZ": "front",
+      "foot": {
+        "y": 500
+      },
+      "facing": "right"
+    }
+  ]
+}

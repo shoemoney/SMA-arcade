@@ -281,20 +281,28 @@
       "mode": 493
     },
     {
-      "path": "public/karate-kids/assets/index-D3GN02jg.css",
+      "path": "public/karate-kids/assets/index-DYEQX951.css",
       "kind": "file",
       "mode": 420,
-      "sha256": "64752cb7830c202123ec7c2f61037f29b458f42db6898f871f0f3c6695673432",
+      "sha256": "81ecd6ddcc3be42fb8718a3716eea73583e1ee75d31ecca97f3bf822dd37225f",
       "executable": false,
-      "size": 11163
+      "size": 38856
     },
     {
-      "path": "public/karate-kids/assets/index-zYIAPLiN.js",
+      "path": "public/karate-kids/assets/index-DtpNUeIJ.js",
       "kind": "file",
       "mode": 420,
-      "sha256": "48a5fcfc9fc370f55e21c6eecffa13b85f31f31e0a1b3bcb8a33506f8d00f74f",
+      "sha256": "69a6cb6cad91e91c86ad98a6f1221082049a8e9c186a04a645a3a60fe9d4d862",
       "executable": false,
-      "size": 930090
+      "size": 1062214
+    },
+    {
+      "path": "public/karate-kids/assets/index-DtpNUeIJ.js.map",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "d33a4318e7cceb49c4bed4b951bbebde6a434d650e8594434f790441a206961d",
+      "executable": false,
+      "size": 6245229
     },
     {
       "path": "public/karate-kids/brand",
@@ -305,9 +313,9 @@
       "path": "public/karate-kids/brand/PROVENANCE.json",
       "kind": "file",
       "mode": 420,
-      "sha256": "53fbc9bfd6607a1c827a6a15283f4e90345c2d645fc2694508f2c28c10d1c97b",
+      "sha256": "424a7f9d77a6f9a209906f20b04743e53578874baef4072ecd368befa0c1eb5a",
       "executable": false,
-      "size": 3344
+      "size": 4393
     },
     {
       "path": "public/karate-kids/brand/shoemoney-emblem.png",
@@ -318,6 +326,22 @@
       "size": 35605
     },
     {
+      "path": "public/karate-kids/brand/shoemoney-logo.png",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "d485f9c12f2b64484052a357b77c7b983beefbc2b99831200e1a98d7507e50c7",
+      "executable": false,
+      "size": 384811
+    },
+    {
+      "path": "public/karate-kids/brand/shoemoney-logo.webp",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "b15401d92cde5af9c1b94414227b7e50789195bf488c028f1030ede25ad6f850",
+      "executable": false,
+      "size": 10496
+    },
+    {
       "path": "public/karate-kids/fighters",
       "kind": "directory",
       "mode": 493
@@ -326,25 +350,25 @@
       "path": "public/karate-kids/fighters/aka-0.webp",
       "kind": "file",
       "mode": 420,
-      "sha256": "1c2028d7c1b03935aee0646fad489e70b88ab0f2391c5c01730d83b926d76df4",
+      "sha256": "0312e1ece1b90da4fe01e3921f66a5219566002ae3db9c18a85919000bbc3f77",
       "executable": false,
-      "size": 432798
+      "size": 472714
     },
     {
       "path": "public/karate-kids/fighters/aka-1.webp",
       "kind": "file",
       "mode": 420,
-      "sha256": "e92d7f02635273c9c9935c9afe4871e56d3a8d3fca1a2d02110104e425a4f9c2",
+      "sha256": "1aa2ba88bc3622b275a2f127147650106c21a048bc7ef15eb2e0678dc489a8a6",
       "executable": false,
-      "size": 399010
+      "size": 433358
     },
     {
       "path": "public/karate-kids/fighters/aka-2.webp",
       "kind": "file",
       "mode": 420,
-      "sha256": "214456ce2d492d895f56f7098265fe8d79548cd3d5396bc0e037eb8a3b887c28",
+      "sha256": "8fa76fe9639c2532540a6ca28d400f10f5abde73d64f2132edbd326f33471be5",
       "executable": false,
-      "size": 362450
+      "size": 397594
     },
     {
       "path": "public/karate-kids/fighters/manifest.json",
@@ -358,38 +382,139 @@
       "path": "public/karate-kids/fighters/shiro-0.webp",
       "kind": "file",
       "mode": 420,
-      "sha256": "62b6395f0e65f401fd0a6b35121109b7113c23d403d93d6daa01bbbdc3c2c6d6",
+      "sha256": "5436b1c2944b9234fb5968effd388c66db201fbcc9422018b43b6d4e8d7cea8a",
       "executable": false,
-      "size": 437496
+      "size": 459120
     },
     {
       "path": "public/karate-kids/fighters/shiro-1.webp",
       "kind": "file",
       "mode": 420,
-      "sha256": "85808b6ba6bee4ec64a64c8a5d29aeaae809c72e9ddee6c9261d5b43bc83a87f",
+      "sha256": "dcb9590a94491e7af8ce5028a093de507e517d6ab049bb88b8418e7560be63b3",
       "executable": false,
-      "size": 395452
+      "size": 419336
     },
     {
       "path": "public/karate-kids/fighters/shiro-2.webp",
       "kind": "file",
       "mode": 420,
-      "sha256": "29b16da47add3f4db0986ac94690bfbc655329c34f0ecd2628c999da1aec6f49",
+      "sha256": "81c3620e785036d0d779978da9f9f79e9135f61606d932be5915502fd2368af1",
       "executable": false,
-      "size": 356850
+      "size": 388670
+    },
+    {
+      "path": "public/karate-kids/generated",
+      "kind": "directory",
+      "mode": 493
+    },
+    {
+      "path": "public/karate-kids/generated/PROVENANCE.json",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "de5fb37a1f083c58042941123ad6a2ff3cb21de40259abea89366724d87b4829",
+      "executable": false,
+      "size": 5204
+    },
+    {
+      "path": "public/karate-kids/generated/banner-vertical.webp",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "200bc6d414a550e53485b52b5e5f1aba5c8ec379380d90515ad76a5416ce9ae8",
+      "executable": false,
+      "size": 77328
+    },
+    {
+      "path": "public/karate-kids/generated/crowd-silhouette.webp",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "14133859037db86b40784257c3a54e14878c3e52157f534e637a1455b090d9bc",
+      "executable": false,
+      "size": 23070
+    },
+    {
+      "path": "public/karate-kids/generated/dojo-backdrop.webp",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "0f6fba126ab16c1fead57ca898bf2c4ab56a3aade730e82b76b2af70e1fd7270",
+      "executable": false,
+      "size": 129158
+    },
+    {
+      "path": "public/karate-kids/generated/dojo-ceiling.webp",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "1524bbb221495f53124cfcb549d97812318940fe695463969be4360391c0f6c0",
+      "executable": false,
+      "size": 90692
+    },
+    {
+      "path": "public/karate-kids/generated/dojo-floor.webp",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "d1b0a87afcf99506e82488a50831ed8b0817a1fc64004357e48702e0b865354f",
+      "executable": false,
+      "size": 119324
+    },
+    {
+      "path": "public/karate-kids/generated/dust-mote.webp",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "da7e365c665318bbfc83292e6a9be9b54eb18ef022a5ed2f19359001c0c8208c",
+      "executable": false,
+      "size": 622
+    },
+    {
+      "path": "public/karate-kids/generated/impact-flash.webp",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "b1f5bbe37f43f7943fe353231fb40aa263378cde51839b223177f40b66445075",
+      "executable": false,
+      "size": 55592
+    },
+    {
+      "path": "public/karate-kids/generated/impact-ring.webp",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "d68d137bebac776858f62dc1de72ad30ed2297ca8b3a50d1210e018d215fd304",
+      "executable": false,
+      "size": 50112
+    },
+    {
+      "path": "public/karate-kids/generated/title-backdrop.webp",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "aa64aa15657983b024781c53af93a55a06b57b4f91c691777ba4f74f86c6a10e",
+      "executable": false,
+      "size": 77820
+    },
+    {
+      "path": "public/karate-kids/generated/volumetric-shaft.webp",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "0d4f98d7a00151097b4c392e8c90f552877d0b8b0fbc37b76e9954d6a105b88c",
+      "executable": false,
+      "size": 279514
     },
     {
       "path": "public/karate-kids/index.html",
       "kind": "file",
       "mode": 420,
-      "sha256": "ea2e9d6c67f253d949c3fd52fa261614cc35813a49b11220c1b96020a6be4a8f",
+      "sha256": "56c477752cc0090b0156dbdf328396bf05d0c33e9f34f3a1321d0a0d3e1cbdb1",
       "executable": false,
-      "size": 5686
+      "size": 10001
     },
     {
       "path": "public/last-engineer",
       "kind": "directory",
       "mode": 493
+    },
+    {
+      "path": "public/last-engineer/.nojekyll",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "executable": false,
+      "size": 0
     },
     {
       "path": "public/last-engineer/apple-touch-icon.png",
@@ -405,20 +530,20 @@
       "mode": 493
     },
     {
-      "path": "public/last-engineer/assets/index-5qva9Jir.js",
+      "path": "public/last-engineer/assets/index-9RO1FsAQ.css",
       "kind": "file",
       "mode": 420,
-      "sha256": "3a540b610d3988b8c055b8e32efe2e40b9134c237938fe846e59ed4988d778e2",
+      "sha256": "05498807a8951e062484730e098dbbb454c5ff58fbd24d635fb5201ca4d0c286",
       "executable": false,
-      "size": 1596458
+      "size": 27335
     },
     {
-      "path": "public/last-engineer/assets/index-C_GuHk19.css",
+      "path": "public/last-engineer/assets/index-_13qCZFM.js",
       "kind": "file",
       "mode": 420,
-      "sha256": "a57d85ce8be2cbb07e09b2b8c193a4a96a3d56f433ebd7082f6560188af2b510",
+      "sha256": "61b0db8de1dcd6f4a56fa7a6ce9020d7c17364e2951ac2ac1c73f6701f7083ae",
       "executable": false,
-      "size": 24925
+      "size": 1619120
     },
     {
       "path": "public/last-engineer/brand",
@@ -432,6 +557,14 @@
       "sha256": "51909396d72dd080a9a54104f2bbb3241b4cd7ae59773daf4c973dc9f3a51f1d",
       "executable": false,
       "size": 298084
+    },
+    {
+      "path": "public/last-engineer/brand/shoemoney-logo.png",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "d40c2f0d4b671e0114249af5d6ff3f7c6de3d5060425fc2b07f86be55a69afdc",
+      "executable": false,
+      "size": 106193
     },
     {
       "path": "public/last-engineer/favicon-32.png",
@@ -524,14 +657,6 @@
       "sha256": "854dee56e34e922c19c7eeeac2b11f3bee14408622ed669e5ef81c08729afd2c",
       "executable": false,
       "size": 7207
-    },
-    {
-      "path": "public/last-engineer/game/audio/sfx/explosion.mp3",
-      "kind": "file",
-      "mode": 420,
-      "sha256": "a0b81def9f42bd1034f5427f1e2853b5ce43ed737fedf728113a933b36f6af0b",
-      "executable": false,
-      "size": 44700
     },
     {
       "path": "public/last-engineer/game/audio/sfx/headshot_splat.mp3",
@@ -984,12 +1109,209 @@
       "size": 272894
     },
     {
+      "path": "public/last-engineer/game/tex",
+      "kind": "directory",
+      "mode": 493
+    },
+    {
+      "path": "public/last-engineer/game/tex/ad_apply.webp",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "c5beed8afc38a482d2422a35bb9b20a56111232d49860fc1ac257b419e53e924",
+      "executable": false,
+      "size": 15590
+    },
+    {
+      "path": "public/last-engineer/game/tex/ad_auction.webp",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "236631a0a41108c5e22479a0243f67fbb66feaf783273e4ec0af86dbb3ac4291",
+      "executable": false,
+      "size": 24094
+    },
+    {
+      "path": "public/last-engineer/game/tex/ad_deposit.webp",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "e97b10086da481ff247a3918fee9a67633fa4bf1159c58ab9077f03955686b3e",
+      "executable": false,
+      "size": 24096
+    },
+    {
+      "path": "public/last-engineer/game/tex/ad_hazard.webp",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "2e806096b7240e98722fa1567ca194d00a86ec352f1b139160098e7e2c86718e",
+      "executable": false,
+      "size": 20360
+    },
+    {
+      "path": "public/last-engineer/game/tex/ad_lasttrain.webp",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "1e500264f4149380d38877f64d8b42cfbeb842df1bd07466a9b1871b4cf23afa",
+      "executable": false,
+      "size": 12440
+    },
+    {
+      "path": "public/last-engineer/game/tex/ad_money.webp",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "7a8718df1add48d9baeb482e2114659d9f4db69c27fdeb43fcc52394a988649c",
+      "executable": false,
+      "size": 12650
+    },
+    {
+      "path": "public/last-engineer/game/tex/ad_notice.webp",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "bb018d19c41745bb06af69e849ea05f7fbe3e980e5319eecd79482a6fade7624",
+      "executable": false,
+      "size": 18874
+    },
+    {
+      "path": "public/last-engineer/game/tex/ad_ringtones.webp",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "0f37db12b6a3a42ee9261c024394514eda146eed83f7ad424b076f102d34530c",
+      "executable": false,
+      "size": 21480
+    },
+    {
+      "path": "public/last-engineer/game/tex/bin_metal.webp",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "586ac2d71e096ef1b26cef3b9ec6f42922f19447da0be0fb1155f78623ac381b",
+      "executable": false,
+      "size": 66754
+    },
+    {
+      "path": "public/last-engineer/game/tex/bulkhead.webp",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "420d60084a31feb1d4346437ab90cf93f4d27b6c5761c9e5981c5ce049c1fbbc",
+      "executable": false,
+      "size": 48538
+    },
+    {
+      "path": "public/last-engineer/game/tex/ceiling.webp",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "ca0a46c876f3da2e23fa5e475906e12289cbf7445bc26ca2fe910b01d5a173d0",
+      "executable": false,
+      "size": 43918
+    },
+    {
+      "path": "public/last-engineer/game/tex/column.webp",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "4a9e9a8461ae5c5269f340559c1cc1674b4ffb5e7188c81ad2240ac5799d3d35",
+      "executable": false,
+      "size": 65910
+    },
+    {
+      "path": "public/last-engineer/game/tex/concrete.webp",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "b0c2dc0aad893af1d167ffa2926d0689ae066b5117f27ec88fb9770f5ae7906d",
+      "executable": false,
+      "size": 47096
+    },
+    {
+      "path": "public/last-engineer/game/tex/furniture.webp",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "9fdec4b6114e5bbf116c40dc4e2312a58f7498ac7f22f560ad185cd7cf9d9f95",
+      "executable": false,
+      "size": 15930
+    },
+    {
+      "path": "public/last-engineer/game/tex/grating.webp",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "d6af69b41055adb0952c88973aab897b64b5f6ff34e682dca81a61bb4efe8d39",
+      "executable": false,
+      "size": 75616
+    },
+    {
+      "path": "public/last-engineer/game/tex/pit_floor.webp",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "873f82d1d2565e9154855519de9e3d2baec7ffcf38d6163bfee5969b335e39fd",
+      "executable": false,
+      "size": 92838
+    },
+    {
+      "path": "public/last-engineer/game/tex/rail.webp",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "47e1b0f8a11bd85f931dc911a758ba4e724ee12a49c5a7fc39bec4b4ce9692f9",
+      "executable": false,
+      "size": 61040
+    },
+    {
+      "path": "public/last-engineer/game/tex/shaft_tile.webp",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "8b44dc467ae6c9d4cbf1b3f0427e65e28ddbe68b965a510aeb96eeb32e814d3c",
+      "executable": false,
+      "size": 22368
+    },
+    {
+      "path": "public/last-engineer/game/tex/sleeper.webp",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "33500530fdd9e149e87ef40c2a95625900cc0b225823d8f442b880bbb4941fd6",
+      "executable": false,
+      "size": 54836
+    },
+    {
+      "path": "public/last-engineer/game/tex/stair_tread.webp",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "84d90c33ed2682f2f8ef2a02de95b98814fa719df0cbee4f8aa81cd6c3ad6e72",
+      "executable": false,
+      "size": 54292
+    },
+    {
+      "path": "public/last-engineer/game/tex/stripe.webp",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "024af44ca8366159899d017b6181fd1635b794ff4fc5b538ad6a4905d4ef1e20",
+      "executable": false,
+      "size": 86148
+    },
+    {
+      "path": "public/last-engineer/game/tex/tile.webp",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "9e9eca4519d6af46f395a77ddb15f0c4b21b2e80a2988f0ed96ce67c80f755dc",
+      "executable": false,
+      "size": 35070
+    },
+    {
+      "path": "public/last-engineer/game/tex/tunnel_wall.webp",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "d58a68fc4088699e96ab74b53cd15100ed1f580f947ff4e62d122e8df9126fd5",
+      "executable": false,
+      "size": 55970
+    },
+    {
+      "path": "public/last-engineer/game/tex/wet_concrete.webp",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "1c0f346716b62763972cad844a29bd3719cc511555c3b0b275863e5dde76d5d1",
+      "executable": false,
+      "size": 65240
+    },
+    {
       "path": "public/last-engineer/index.html",
       "kind": "file",
       "mode": 420,
-      "sha256": "f94afa5a81daac3a86f5f86b86916697adbe0f17cb411cf1da28916a6f1d059f",
+      "sha256": "1d1ffbb9f34b4490da89f66f6fb2deec51b6e3a3de197a950e096dcedbc80167",
       "executable": false,
-      "size": 15404
+      "size": 17062
     },
     {
       "path": "public/reactorfall",
@@ -1580,20 +1902,20 @@
       "size": 34669
     },
     {
-      "path": "public/reactorfall/assets/index-BguTWdJi.css",
+      "path": "public/reactorfall/assets/index-CSoDlss1.css",
       "kind": "file",
       "mode": 420,
-      "sha256": "397181cf0ac13b0b8cada99fc01b84303dbd3a99f483671b7a13b64eaa938156",
+      "sha256": "371c5174056488bc46fb6452e6c4d5b731e3286df41539f596f4021378cef676",
       "executable": false,
-      "size": 40353
+      "size": 41371
     },
     {
-      "path": "public/reactorfall/assets/index-Dg0nFvxY.js",
+      "path": "public/reactorfall/assets/index-Dn7rUGEf.js",
       "kind": "file",
       "mode": 420,
-      "sha256": "c020561d54be530d5690dc29e8f5219fcfbfdbe6dce3561e51e80eded59664a1",
+      "sha256": "c83786c4e1701b2a85920b9a7e03c1024290fb02e3ada4a1cb119d66a8fb871b",
       "executable": false,
-      "size": 220951
+      "size": 221298
     },
     {
       "path": "public/reactorfall/assets/library",
@@ -1684,7 +2006,7 @@
       "path": "public/reactorfall/index.html",
       "kind": "file",
       "mode": 420,
-      "sha256": "c9f88097f2da763ebeeeee688c0c2ec624f0c56fa4320d8ba8eb4c951bb189a7",
+      "sha256": "61f1cdc10d33e96474ee9db7440b4f611754e1616cab5504b7cda2af301ecd68",
       "executable": false,
       "size": 5937
     },
@@ -1763,87 +2085,127 @@
       "mode": 493
     },
     {
+      "path": "public/shoeateka/.gitkeep",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "executable": false,
+      "size": 0
+    },
+    {
       "path": "public/shoeateka/assets",
       "kind": "directory",
       "mode": 493
     },
     {
-      "path": "public/shoeateka/assets/BufferResource-BN_CxRHC.js",
+      "path": "public/shoeateka/assets/BufferResource-B-thlpip.js",
       "kind": "file",
       "mode": 420,
-      "sha256": "c7cd84d85bc174f9811fe8d5cb18fb7bd813b088db886c07c3a75be78a8ff170",
+      "sha256": "56f34780fd104d1cb11da624c9fab954f9de88802590170e4522281609164990",
       "executable": false,
-      "size": 11028
+      "size": 11068
     },
     {
-      "path": "public/shoeateka/assets/CanvasPool-CTdYh1jO.js",
+      "path": "public/shoeateka/assets/Cache-DDo62lBW.js",
       "kind": "file",
       "mode": 420,
-      "sha256": "d103fea575b2321dee3a7244d1b2f9a52ebcdd1cc3a1fb415c0f472e18d345ec",
+      "sha256": "94f3d177d09bfecefa8b80e646a55ff894635dd1723d6e7128d802477f3bae3a",
       "executable": false,
-      "size": 110321
+      "size": 1100
     },
     {
-      "path": "public/shoeateka/assets/RenderTargetSystem-bxrdBuGm.js",
+      "path": "public/shoeateka/assets/CanvasPool-DecUtJxW.js",
       "kind": "file",
       "mode": 420,
-      "sha256": "f4ca484f6f2420110c02ce8abeccdb1d1824ce9a206bfd734064526b5ae76864",
+      "sha256": "45335d161156296b274b89eb85b9040a0d08b1870125bfcc5e7100bb937589f1",
       "executable": false,
-      "size": 78081
+      "size": 68480
     },
     {
-      "path": "public/shoeateka/assets/browserAll-HuJD9Hwb.js",
+      "path": "public/shoeateka/assets/Filter-DzecrWg_.js",
       "kind": "file",
       "mode": 420,
-      "sha256": "3105eaa382a52a71e70b33f40a0a3d1ab59ef729648ee77abaf0005cc5a55f26",
+      "sha256": "de855f231760116676843943157cf0b52bf893b5f0781f8d34fc94352e1c3fbd",
       "executable": false,
-      "size": 42651
+      "size": 42012
     },
     {
-      "path": "public/shoeateka/assets/canvasUtils-BdihyJOf.js",
+      "path": "public/shoeateka/assets/GCManagedHash-Bz2ZMBJN.js",
       "kind": "file",
       "mode": 420,
-      "sha256": "f9a70fbba66439b79b011a12ab86fefbda563fe1cbd7e7e44afafe7d41c99710",
+      "sha256": "b634a4602cfa70019626a0e83942f76dfbe49feadf28825410f0b96cb1849ef6",
       "executable": false,
-      "size": 6055
+      "size": 19356
     },
     {
-      "path": "public/shoeateka/assets/getTextureBatchBindGroup-DQMqOj3R.js",
+      "path": "public/shoeateka/assets/GraphicsContext-BBABHYLV.js",
       "kind": "file",
       "mode": 420,
-      "sha256": "3d71e67122798574b564028e290cc744047c07480cf9d21c6a85ad43f93d0ca3",
+      "sha256": "aee356589ae880fc9928a97c64a178596a79aecdb2d6be15521b7ac439c30217",
+      "executable": false,
+      "size": 61728
+    },
+    {
+      "path": "public/shoeateka/assets/RenderTargetSystem-CgUxHIsn.js",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "cc26f4d020bdf55a0346f21b417048a129c071b2b4625463bb269eb899443aa2",
+      "executable": false,
+      "size": 58779
+    },
+    {
+      "path": "public/shoeateka/assets/browserAll-CvjCLRjW.js",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "39d60544fd47b233591c22b44ff2c43a38b4654aa408fbe7d941fc6c4cd3cd79",
+      "executable": false,
+      "size": 42676
+    },
+    {
+      "path": "public/shoeateka/assets/canvasUtils-CxYPZET9.js",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "1e29f32d043bc9342dabb11cb033adf27013606f32f8d363cf3c2ff34bed5b03",
+      "executable": false,
+      "size": 6054
+    },
+    {
+      "path": "public/shoeateka/assets/getTextureBatchBindGroup-DBCrgHVb.js",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "f97cfacaed002298725cd05c62cb5668989473d0bfe5850c4c36dbd773b59766",
       "executable": false,
       "size": 344
     },
     {
-      "path": "public/shoeateka/assets/index-B-y9yIer.css",
+      "path": "public/shoeateka/assets/index-C0vOyU68.js",
       "kind": "file",
       "mode": 420,
-      "sha256": "f8501bdfd3ef66add132df856475b33d0275960c0017ce49ae0296e3791da680",
+      "sha256": "10b40c3a3f6e3a07250eec582df04a6049eb586ad078fb663bbb51a3aad40c27",
       "executable": false,
-      "size": 8224
+      "size": 460303
     },
     {
-      "path": "public/shoeateka/assets/index-yerCb7Rz.js",
+      "path": "public/shoeateka/assets/index-DrFAj1ey.css",
       "kind": "file",
       "mode": 420,
-      "sha256": "3e9e6cbf465aa10c17a2c9875e19a3dc25a54619f992639336dd81a1745be9df",
+      "sha256": "6994bfa36e5931757548cfc004e84b7d3c19d6e68011ac3572bc85956aa46507",
       "executable": false,
-      "size": 329657
+      "size": 21828
     },
     {
-      "path": "public/shoeateka/assets/init-BD52342n.js",
+      "path": "public/shoeateka/assets/init-Cn1_BCi0.js",
       "kind": "file",
       "mode": 420,
-      "sha256": "5e7f848bb866630589337aeb2b4f793912420c698a6effa2ba87dbdc2b8beca1",
+      "sha256": "c6fb810d1c6d8674992f4e85779800fe63394b29eb0dcea71206fc7495714037",
       "executable": false,
-      "size": 15727
+      "size": 15753
     },
     {
-      "path": "public/shoeateka/assets/webworkerAll-DuBdpVze.js",
+      "path": "public/shoeateka/assets/webworkerAll-CoxP4Cp9.js",
       "kind": "file",
       "mode": 420,
-      "sha256": "df61c9e486a6c3e8413bc9db8849b1fea14dc745bd8b5192f03d3cd767465863",
+      "sha256": "7b20113f147b75b8c86d04a73cebab205d1e6d82afc5c9fff0ee82e3ec6fd808",
       "executable": false,
       "size": 55
     },
@@ -2179,6 +2541,183 @@
       "size": 17357
     },
     {
+      "path": "public/shoeateka/brand",
+      "kind": "directory",
+      "mode": 493
+    },
+    {
+      "path": "public/shoeateka/brand/shoemoney-logo.webp",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "a84e39748b82dbb9ad15782e874f483916103cfc61d946d32c2afd235ba5b4ec",
+      "executable": false,
+      "size": 23634
+    },
+    {
+      "path": "public/shoeateka/env",
+      "kind": "directory",
+      "mode": 493
+    },
+    {
+      "path": "public/shoeateka/env/cliff",
+      "kind": "directory",
+      "mode": 493
+    },
+    {
+      "path": "public/shoeateka/env/cliff/far.webp",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "a2dcf05f5ad305ac5442d62686fdacdeae532bf4179464170c27c78d0c5f3e4b",
+      "executable": false,
+      "size": 170740
+    },
+    {
+      "path": "public/shoeateka/env/cliff/floor.webp",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "193021205da043f1f44af775668b7eda0616de768fee1acb93ccd60f06b733dc",
+      "executable": false,
+      "size": 301472
+    },
+    {
+      "path": "public/shoeateka/env/cliff/fore.webp",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "32e1aac581d66753ce9c4c74f2b7ad7ccd9c971d2d86279dc4e42f3da39b6268",
+      "executable": false,
+      "size": 171490
+    },
+    {
+      "path": "public/shoeateka/env/cliff/mid.webp",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "af38f461eac10692d62bcccac701cfb0d4c75f8e89b765ece2c18ffd44aff9aa",
+      "executable": false,
+      "size": 473184
+    },
+    {
+      "path": "public/shoeateka/env/cliff/sky.webp",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "1db3a062fab3bdfe7b3ddfce26c803d30cac4c757a5b90bf256cbea85e428de7",
+      "executable": false,
+      "size": 601810
+    },
+    {
+      "path": "public/shoeateka/env/keep",
+      "kind": "directory",
+      "mode": 493
+    },
+    {
+      "path": "public/shoeateka/env/keep/captive-chamber.webp",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "1da038434c5a5779f6f28b9c201d76fb6e75aa74ac908add31c35b4291e2e4fd",
+      "executable": false,
+      "size": 914696
+    },
+    {
+      "path": "public/shoeateka/env/keep/chamber.webp",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "8ab46039fe82ff53204ce0b59fe713cdb9caa0097641bcd675ba75b5fe068d18",
+      "executable": false,
+      "size": 1048546
+    },
+    {
+      "path": "public/shoeateka/env/keep/far.webp",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "a62b4a5d48511720c2b5771811099cc26cb47b357ec8d053e312dcc5aa410312",
+      "executable": false,
+      "size": 487818
+    },
+    {
+      "path": "public/shoeateka/env/keep/floor.webp",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "937e9b103824cf1abeac39f7df421b24c44200b6e003a10531a3054c9e898e3b",
+      "executable": false,
+      "size": 279642
+    },
+    {
+      "path": "public/shoeateka/env/keep/fore.webp",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "5ca80d26526d2dddc77260fd4c2b3dc46d8173ad9ffb2c0b9507753172977333",
+      "executable": false,
+      "size": 237330
+    },
+    {
+      "path": "public/shoeateka/env/keep/mid.webp",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "fdaf3d14136de7cc84e3feecf7ac14fea4a48aea575aa36197b71eaec62db3d6",
+      "executable": false,
+      "size": 408552
+    },
+    {
+      "path": "public/shoeateka/env/keep/sky.webp",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "2dde20388812bcef0afdb4e31ae9af806aa59e186eedbbb09fa6d883d9b44876",
+      "executable": false,
+      "size": 862258
+    },
+    {
+      "path": "public/shoeateka/env/keep/warlord-chamber.webp",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "c26b5eb634c37d7a84d714e2bf38f03a7fca6463efb23cb9f2abb36c7b53790b",
+      "executable": false,
+      "size": 963242
+    },
+    {
+      "path": "public/shoeateka/env/palace",
+      "kind": "directory",
+      "mode": 493
+    },
+    {
+      "path": "public/shoeateka/env/palace/far.webp",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "4a86ba45f41f150550fb7c7e859c01248e375c1b0940c52bba51a8f55f367ef5",
+      "executable": false,
+      "size": 115436
+    },
+    {
+      "path": "public/shoeateka/env/palace/floor.webp",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "33db29e03c402f4c5d22ba3f628b3c031edd7c1ed3600d9a2116b8077092f101",
+      "executable": false,
+      "size": 220584
+    },
+    {
+      "path": "public/shoeateka/env/palace/fore.webp",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "407307f5db08071e09cbe2d0655854b0e513651e2d29b3d2e30c876e8962b301",
+      "executable": false,
+      "size": 145136
+    },
+    {
+      "path": "public/shoeateka/env/palace/mid.webp",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "25a4a68ff9f2fba93e691fc8b958bdf8cbc4555dc2af3e6f9d2a0e042d4f5af0",
+      "executable": false,
+      "size": 485826
+    },
+    {
+      "path": "public/shoeateka/env/palace/sky.webp",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "0cce33550c9762348486301ca62d765314937f24fbb7703e96a8e31af600f582",
+      "executable": false,
+      "size": 827202
+    },
+    {
       "path": "public/shoeateka/fonts",
       "kind": "directory",
       "mode": 493
@@ -2197,12 +2736,579 @@
       "size": 71904
     },
     {
+      "path": "public/shoeateka/fx",
+      "kind": "directory",
+      "mode": 493
+    },
+    {
+      "path": "public/shoeateka/fx/dust.png",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "9fff9bfa0d64ead5e6168275c1ed07d2a836db0310ca4003f81a9f9780ab636f",
+      "executable": false,
+      "size": 6068
+    },
+    {
+      "path": "public/shoeateka/fx/flash.png",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "13dad4750220f2047cd40926ef3b9611ee89abfc3323d4781dcaba8e15c1b2e7",
+      "executable": false,
+      "size": 7761
+    },
+    {
+      "path": "public/shoeateka/fx/spark.png",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "81fbd4807c75cb58d782fa2825682426b7de14869b56fa58a44909a2aeee6438",
+      "executable": false,
+      "size": 12686
+    },
+    {
+      "path": "public/shoeateka/images",
+      "kind": "directory",
+      "mode": 493
+    },
+    {
+      "path": "public/shoeateka/images/emblem.webp",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "8ea83ed6546e4115a95370ab860667d98545840f8cf71e4e00d939f1ff8987a8",
+      "executable": false,
+      "size": 61952
+    },
+    {
+      "path": "public/shoeateka/images/splash.webp",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "761717d968b92231be52d636737b4d0e9b2ac2839bf677b595e37f2b3ac1a084",
+      "executable": false,
+      "size": 61348
+    },
+    {
+      "path": "public/shoeateka/images/title-key-art.webp",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "79b4d81709d977e22821d2ed22e4249ace8e298f3b505da3bfb705d74fe7ca4e",
+      "executable": false,
+      "size": 255450
+    },
+    {
+      "path": "public/shoeateka/images/wordmark.webp",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "1d55edfa4cc7bf11317ee8a0a1ef4e7343bfe7dab0c70f93fe60032e6f42e131",
+      "executable": false,
+      "size": 121714
+    },
+    {
       "path": "public/shoeateka/index.html",
       "kind": "file",
       "mode": 420,
-      "sha256": "c2e99b518b0841ec42dba94e525fcfb122ff29c1e32bc63ac3eec38b73dbe7c0",
+      "sha256": "718fff29a039cfc7866c5208e2e2ed8111f4f0416d6e20283d5a0ed30e078dae",
       "executable": false,
-      "size": 837
+      "size": 1467
+    },
+    {
+      "path": "public/shoeateka/sprites",
+      "kind": "directory",
+      "mode": 493
+    },
+    {
+      "path": "public/shoeateka/sprites/badge-0.webp",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "ab143d49a9cd0c68a8003ac76d45a88bb98b5bf80b76bdb1c7eb364de163df48",
+      "executable": false,
+      "size": 104124
+    },
+    {
+      "path": "public/shoeateka/sprites/badge.anchors.json",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "032a539741be8fabb6cea6086805d756c9ae961b4e0792a0054e45a3f79665c0",
+      "executable": false,
+      "size": 1044
+    },
+    {
+      "path": "public/shoeateka/sprites/badge.json",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "5924a67b47594f5a54cd9ddce434fefde8ba5873e5940ef1a753b3c44d00b5be",
+      "executable": false,
+      "size": 2123
+    },
+    {
+      "path": "public/shoeateka/sprites/banner-0.webp",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "9ee21d70196139ce1577a355ff6a7c83d9061c136551b84ef25ceb6beb574bae",
+      "executable": false,
+      "size": 26760
+    },
+    {
+      "path": "public/shoeateka/sprites/banner.anchors.json",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "c50e347cf5513b35ae32d2e36fd32d4cba8321f2344915734edf88e8ea714103",
+      "executable": false,
+      "size": 432
+    },
+    {
+      "path": "public/shoeateka/sprites/banner.json",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "4fc79c91eaf31898e4264460a07d51a7de6ea0a03cb49a895294018775185f1d",
+      "executable": false,
+      "size": 1002
+    },
+    {
+      "path": "public/shoeateka/sprites/captive-0.webp",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "ecc75574590f6b7c787d138195b45950b644c8118170e6d6d08c950e2dc94f16",
+      "executable": false,
+      "size": 132102
+    },
+    {
+      "path": "public/shoeateka/sprites/captive.anchors.json",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "513ec3c8c6f0753a898b752a2f367864efba3b2057bf86638690025ae3a7eb5f",
+      "executable": false,
+      "size": 1348
+    },
+    {
+      "path": "public/shoeateka/sprites/captive.json",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "2db80f8e72fb0605abd54f90726c07bef09c3aed8c137b846ae5bd124e9519f0",
+      "executable": false,
+      "size": 2823
+    },
+    {
+      "path": "public/shoeateka/sprites/counterfighter-0.webp",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "99e3bd526ef14cffeac875c21cd3cacbf63a6d6ff55e8ec0a7efa26451bcfc69",
+      "executable": false,
+      "size": 504862
+    },
+    {
+      "path": "public/shoeateka/sprites/counterfighter-1.json",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "5a77b23cf9e661840fd91c112a083790768ebde04b6f2e06341711257bc0bd21",
+      "executable": false,
+      "size": 1529
+    },
+    {
+      "path": "public/shoeateka/sprites/counterfighter-1.webp",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "69d8a07a9345cf1db072b1bb52f35a44bd8bfdebfa3325562b06383757cf0131",
+      "executable": false,
+      "size": 36364
+    },
+    {
+      "path": "public/shoeateka/sprites/counterfighter.anchors.json",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "73a5e14dd4e1d6a173020f828771cdd54671d7d1edff6301b889acf5c1f5de2c",
+      "executable": false,
+      "size": 7785
+    },
+    {
+      "path": "public/shoeateka/sprites/counterfighter.json",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "58a1b3663305e66c0a0c3c749c801afc30dad59e0eaef06578e3b99a42b5800d",
+      "executable": false,
+      "size": 14512
+    },
+    {
+      "path": "public/shoeateka/sprites/door-0.webp",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "329428972e3505cf04122408fabe2185b257364bef8f3b2552c14ba06401009a",
+      "executable": false,
+      "size": 46270
+    },
+    {
+      "path": "public/shoeateka/sprites/door.anchors.json",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "3a72947ec2a7506363f35dce6176048d89172d21405e1ea6c4ec6f1a11e49288",
+      "executable": false,
+      "size": 445
+    },
+    {
+      "path": "public/shoeateka/sprites/door.json",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "508a3dfbb28455afafb4c35a2b5670a4cdb02f3683f97c7f5dde6526b875b5c5",
+      "executable": false,
+      "size": 1014
+    },
+    {
+      "path": "public/shoeateka/sprites/elite-0.webp",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "e3873b0849a5293daca5b2805ee3fa2885ced833a62227c85aba3e1d5f921663",
+      "executable": false,
+      "size": 499226
+    },
+    {
+      "path": "public/shoeateka/sprites/elite.anchors.json",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "6724356767f34f4973718db28eed60b7b6c69112574a2154de1507e82cbf3ed5",
+      "executable": false,
+      "size": 7783
+    },
+    {
+      "path": "public/shoeateka/sprites/elite.json",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "4e2100628dc12f317761dabf6be3f1b81578e6a9c5fe5c495ffbd62bbb01b6a7",
+      "executable": false,
+      "size": 15000
+    },
+    {
+      "path": "public/shoeateka/sprites/greeter-0.webp",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "3ca3733241fe0cfc00e4bb4d717b5e1d9d58e2a79c481320c1b27ce59f44de8b",
+      "executable": false,
+      "size": 445868
+    },
+    {
+      "path": "public/shoeateka/sprites/greeter.anchors.json",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "044667d429552f4699e208fe8e26af4787e7c9003891ceb81780c5198a2e05d2",
+      "executable": false,
+      "size": 7780
+    },
+    {
+      "path": "public/shoeateka/sprites/greeter.json",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "7874664c69ba26929b6cfa852e739f9957033c812f062391cce1774a8ae821de",
+      "executable": false,
+      "size": 15148
+    },
+    {
+      "path": "public/shoeateka/sprites/hero-0.webp",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "bbc82d9f588c6c01b7686dff85f99ca863edd069875c04f8d1c5dc07a50b1c2a",
+      "executable": false,
+      "size": 357522
+    },
+    {
+      "path": "public/shoeateka/sprites/hero-1.json",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "a50a941a6757a96fa2f6bccba662f3fbae10120c902b77d768be03820ebd607d",
+      "executable": false,
+      "size": 10445
+    },
+    {
+      "path": "public/shoeateka/sprites/hero-1.webp",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "d67447403b826c2ba67a91459b6505d9aeb3e516ffa8d55b16a24a832cb6c4d2",
+      "executable": false,
+      "size": 422670
+    },
+    {
+      "path": "public/shoeateka/sprites/hero-2.json",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "d92b66ebde7202a449529bef8cc4587cc2e7523c7f7c1c41bfa0e1834883e386",
+      "executable": false,
+      "size": 18542
+    },
+    {
+      "path": "public/shoeateka/sprites/hero-2.webp",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "82f5e7cb22fa42a9c5099cb83cbdadcab3ac9d854659433afb2af712aeabfced",
+      "executable": false,
+      "size": 583244
+    },
+    {
+      "path": "public/shoeateka/sprites/hero-3.json",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "9c0bad948f1c17131ce4d291646d88d6527252ba10936bd65f3cb20c92cb2a34",
+      "executable": false,
+      "size": 1959
+    },
+    {
+      "path": "public/shoeateka/sprites/hero-3.webp",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "159e14496163bdcefadddd03b61723da80161c90d3783e06d4f8c2b59f43edab",
+      "executable": false,
+      "size": 55932
+    },
+    {
+      "path": "public/shoeateka/sprites/hero.anchors.json",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "7e5538c38d0c7f2b9ec836ea0f303a578c945f0b7f850d727b45b9410fb9f230",
+      "executable": false,
+      "size": 19047
+    },
+    {
+      "path": "public/shoeateka/sprites/hero.json",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "8f478d3779598badd469e36896e8eef5c5ac1d129744910003940847f9109db1",
+      "executable": false,
+      "size": 6858
+    },
+    {
+      "path": "public/shoeateka/sprites/lantern-0.webp",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "0669c3b790207723fb2bc73e639c7a70f52ab2e20e56cfd9bb7834c1bdc813ae",
+      "executable": false,
+      "size": 32258
+    },
+    {
+      "path": "public/shoeateka/sprites/lantern.anchors.json",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "335629f528cd90c2aaf45fc4f6078d4dc29dff3aa61c63dbc73eb62464d3b961",
+      "executable": false,
+      "size": 432
+    },
+    {
+      "path": "public/shoeateka/sprites/lantern.json",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "19853f63e4c3b1f1299ebc0a30711458a93a6dd9ad251e525778814e0701389d",
+      "executable": false,
+      "size": 1007
+    },
+    {
+      "path": "public/shoeateka/sprites/lowSpecialist-0.webp",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "9651383121f424aae7083abcf1f23ce9382f768db1947e09fbea7aa917752c89",
+      "executable": false,
+      "size": 380644
+    },
+    {
+      "path": "public/shoeateka/sprites/lowSpecialist-1.json",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "86be943e1427d91be3e4d6efea984ffa74f63738031d6a0f04f7b72df8d4fcc4",
+      "executable": false,
+      "size": 5675
+    },
+    {
+      "path": "public/shoeateka/sprites/lowSpecialist-1.webp",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "8898cd3ad55a570b99c2e9bbd5a079fb6ffdfeafbd345116a4aa6c6602f197f3",
+      "executable": false,
+      "size": 170240
+    },
+    {
+      "path": "public/shoeateka/sprites/lowSpecialist.anchors.json",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "4bed6f9d3d3abee8b8d738f55c4ebfdefde8da4e5e20255a7a5533efa7467cca",
+      "executable": false,
+      "size": 7786
+    },
+    {
+      "path": "public/shoeateka/sprites/lowSpecialist.json",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "1a83175a9084bac27317f338f7984655d17a5a1f5565bbc02aca1303fce49f78",
+      "executable": false,
+      "size": 10304
+    },
+    {
+      "path": "public/shoeateka/sprites/portcullis-0.webp",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "2c08b925cdef560b322176cb311d95360eeb65e96bf901e064e69549ec9111dd",
+      "executable": false,
+      "size": 78352
+    },
+    {
+      "path": "public/shoeateka/sprites/portcullis.anchors.json",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "f4a6ac6f88fa218bd089d23ab2a7ed6110f76f85bbd08c8f400e76ad20d26621",
+      "executable": false,
+      "size": 840
+    },
+    {
+      "path": "public/shoeateka/sprites/portcullis.json",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "63b73455536cdd1f435e7cb12599897f8a47bb442ebcf1f2890cfc654f91ccd5",
+      "executable": false,
+      "size": 1797
+    },
+    {
+      "path": "public/shoeateka/sprites/pursuer-0.webp",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "e3edca682b8dfc5c5ef9ad8ced5558335bad3739e3391cfe202223aabf46fb97",
+      "executable": false,
+      "size": 467112
+    },
+    {
+      "path": "public/shoeateka/sprites/pursuer-1.json",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "200fd62faf60ac04dbf3a5579d1d808e4fc882bd85abaa9d5d6d75a7d373c819",
+      "executable": false,
+      "size": 1917
+    },
+    {
+      "path": "public/shoeateka/sprites/pursuer-1.webp",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "8f0c7c2bd62b6ced672231c37698f2b59bf2a32e99cb08679bbb8a8387788d90",
+      "executable": false,
+      "size": 51858
+    },
+    {
+      "path": "public/shoeateka/sprites/pursuer.anchors.json",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "ebb8e3cc74f64903d28833b12abd8c6db082c66bdc2fea6eaf01e6894ca4a79d",
+      "executable": false,
+      "size": 7787
+    },
+    {
+      "path": "public/shoeateka/sprites/pursuer.json",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "e59347b5712efd88ac60a5c26009b70fe57c553da43454dd20e839ad66a30ef1",
+      "executable": false,
+      "size": 13626
+    },
+    {
+      "path": "public/shoeateka/sprites/raptor-0.webp",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "cb21cbb63a32c44b8d2d0115683cb7530e279d3bfe63cb797a8c66cf2f7b270e",
+      "executable": false,
+      "size": 75324
+    },
+    {
+      "path": "public/shoeateka/sprites/raptor.anchors.json",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "c0268c62fdb5c0db956b1fbe5ef258bfce706f2b8767e080848206a4af1feab8",
+      "executable": false,
+      "size": 1936
+    },
+    {
+      "path": "public/shoeateka/sprites/raptor.json",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "6fc5be46bf95b25231c995b45906ddc0fde220bedddeb5201b239fe30cbe2af9",
+      "executable": false,
+      "size": 3938
+    },
+    {
+      "path": "public/shoeateka/sprites/rusher-0.webp",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "1f6983ad8f2fce650e34e488b5beb29bd4f976933f98ec9fb3299208f676f04f",
+      "executable": false,
+      "size": 485790
+    },
+    {
+      "path": "public/shoeateka/sprites/rusher.anchors.json",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "337468fac7ea854a47feeee304ac534519a789de22f76fff6dcf3740f4a07d5b",
+      "executable": false,
+      "size": 7781
+    },
+    {
+      "path": "public/shoeateka/sprites/rusher.json",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "e66bb677e21493951fc9b0d3b0fe0699d644f2996e319fda3ccdc6783231e646",
+      "executable": false,
+      "size": 15076
+    },
+    {
+      "path": "public/shoeateka/sprites/spacer-0.webp",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "a4a58a96642d929ce18b541c74847869930d1f94edee678e901ea7af90fc7ff1",
+      "executable": false,
+      "size": 492008
+    },
+    {
+      "path": "public/shoeateka/sprites/spacer.anchors.json",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "f9f3566a63ec1be2da051d2491da594950fbabf2e5beaa243e6f16b527e6d7b1",
+      "executable": false,
+      "size": 7783
+    },
+    {
+      "path": "public/shoeateka/sprites/spacer.json",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "161f9ec04fd2186b2c07e89af2426b59480f7b644792b5653c059ccddec23e97",
+      "executable": false,
+      "size": 15078
+    },
+    {
+      "path": "public/shoeateka/sprites/warlord-0.webp",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "2aeab65a9ab5f5cef24f34f5e70d00fe8ee42ef657ef4bdab8210443fc3e2b61",
+      "executable": false,
+      "size": 414952
+    },
+    {
+      "path": "public/shoeateka/sprites/warlord-1.json",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "2877bc588f236da7e5158b5ff06a55fe9e13981e9c0b2bb9a51113dfedf26db7",
+      "executable": false,
+      "size": 8513
+    },
+    {
+      "path": "public/shoeateka/sprites/warlord-1.webp",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "c1bac51c7497be8f4cc6fb0c15df1227c60e699bfe745e133cd3f2a745d58420",
+      "executable": false,
+      "size": 422928
+    },
+    {
+      "path": "public/shoeateka/sprites/warlord.anchors.json",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "ff532a2d49152f301d1861e6e42ace942ff7fe5b361097e060d60108aa891813",
+      "executable": false,
+      "size": 6828
+    },
+    {
+      "path": "public/shoeateka/sprites/warlord.json",
+      "kind": "file",
+      "mode": 420,
+      "sha256": "62afe9c99e8657032fc747f1a4334fd69fb1d42cf35650a0090e0c1603c4dec5",
+      "executable": false,
+      "size": 5321
     },
     {
       "path": "public/shoplifter",
@@ -2265,20 +3371,20 @@
       "mode": 493
     },
     {
-      "path": "public/skat3/assets/index-Col5hctg.js",
+      "path": "public/skat3/assets/index-KgrsQj8T.css",
       "kind": "file",
       "mode": 420,
-      "sha256": "bc8fb08a9851e63942a49854cd0e3ae56fef5a733c06060e20ea0887666d7646",
+      "sha256": "fe9dd80fef87c68b4ec7ee59eda830831dd80191332ccbb85974f426dcd4eb38",
       "executable": false,
-      "size": 979692
+      "size": 21213
     },
     {
-      "path": "public/skat3/assets/index-DCyvMRRN.css",
+      "path": "public/skat3/assets/index-Zbj1KUmh.js",
       "kind": "file",
       "mode": 420,
-      "sha256": "963659d9ec24ced3127b8a5e512925c534ff455c8fcaa2fa14a1368df417309e",
+      "sha256": "44ccff7b7ae4090638530b2791eb4683145a18fd4ae6658070da8ff8be0ce8b1",
       "executable": false,
-      "size": 16109
+      "size": 999749
     },
     {
       "path": "public/skat3/brand",
@@ -2297,7 +3403,7 @@
       "path": "public/skat3/index.html",
       "kind": "file",
       "mode": 420,
-      "sha256": "b4083a00dcd50f4b1697aecedefde3bd12ae61779ace1e1d98019aede0c2e038",
+      "sha256": "6deb34542459ff3b834262679fc17baf93f7431646a143d97caf2114e3adfa62",
       "executable": false,
       "size": 1971
     },
@@ -2413,28 +3519,28 @@
       "mode": 493
     },
     {
-      "path": "public/smduel/assets/atlas-0-D-4eK50U.png",
+      "path": "public/smduel/assets/atlas-0-DgwhKy7A.png",
       "kind": "file",
       "mode": 420,
-      "sha256": "ca11e9f4564f4c47b5907007a62ffd9b6dd230ed08f3b26c61cdc8298ff41df3",
+      "sha256": "5c25fd57ec827f44a7c0a0690004da996281d6e07c000e3ed7840b441a00ea8e",
       "executable": false,
-      "size": 2197744
+      "size": 2200026
     },
     {
-      "path": "public/smduel/assets/index-BMZhjYR_.css",
+      "path": "public/smduel/assets/index-C3CrhYjs.js",
       "kind": "file",
       "mode": 420,
-      "sha256": "7f5c7e30846f7d74c376645e28d2711b0395007d6ec52a8624dc51245994d4ee",
+      "sha256": "f41bacba2c857a5abf172c6471aa83698be2d659b2e15ecc105aaea0aba4bef9",
       "executable": false,
-      "size": 32503
+      "size": 495494
     },
     {
-      "path": "public/smduel/assets/index-OC-tIWJm.js",
+      "path": "public/smduel/assets/index-DkWRH4TO.css",
       "kind": "file",
       "mode": 420,
-      "sha256": "d03d8b04f6892fdbe38e273894552c10b499fd84f3c94ec4eb8819abea13d668",
+      "sha256": "8a91ee2780ba44e5fffcaeb4dc5fc924168e4e05af700e2659e727abdc3236cb",
       "executable": false,
-      "size": 465570
+      "size": 42472
     },
     {
       "path": "public/smduel/assets/post-D2MZK8ra.wgsl",
@@ -2472,9 +3578,9 @@
       "path": "public/smduel/index.html",
       "kind": "file",
       "mode": 420,
-      "sha256": "53a6f6376a56ca7910a6eea658d375606247c79a9b089ff3a504afc4fbcef02a",
+      "sha256": "42c0a6bb32ded966a587a7fedcb5dd7bbe743fdd77ed67a5d0443930971d797e",
       "executable": false,
-      "size": 7944
+      "size": 16063
     },
     {
       "path": "public/smtd",
@@ -2630,7 +3736,7 @@
       "size": 283203
     }
   ],
-  "fingerprint": "21c62dfec123b64ea4222d76f9ae253675dab55022b12a831b53ca63a187aa2e",
-  "decisions_sha256": "ac77f9d6065ec68fde6a67995923430d5746d85e40812ee4ae8d5042a6bbd2c4",
+  "fingerprint": "b2fa52d816d4b287e09fa79a11ee3673cff21490c85b6d57c9f34503155d550c",
+  "decisions_sha256": "5859b8d5f5fa3095ae889373802161a89d839b078fedcf3627f94876588a3ad1",
   "public_identifiers": []
 }

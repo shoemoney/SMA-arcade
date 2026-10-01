@@ -1,0 +1,64 @@
+{
+  "frames": {
+    "banner/variant/000": {
+      "frame": {
+        "x": 2,
+        "y": 2,
+        "w": 255,
+        "h": 500
+      },
+      "sourceSize": {
+        "w": 335,
+        "h": 560
+      },
+      "spriteSourceSize": {
+        "x": 40,
+        "y": 40,
+        "w": 255,
+        "h": 500
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "banner/variant/001": {
+      "frame": {
+        "x": 259,
+        "y": 2,
+        "w": 255,
+        "h": 500
+      },
+      "sourceSize": {
+        "w": 335,
+        "h": 560
+      },
+      "spriteSourceSize": {
+        "x": 40,
+        "y": 40,
+        "w": 255,
+        "h": 500
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    }
+  },
+  "animations": {
+    "variant": [
+      "banner/variant/000",
+      "banner/variant/001"
+    ]
+  },
+  "meta": {
+    "image": "banner-0.webp",
+    "scale": "2",
+    "shoeateka": {
+      "fps": {
+        "variant": 12
+      },
+      "phaseMapped": []
+    }
+  }
+}

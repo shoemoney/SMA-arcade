@@ -6,7 +6,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no"
     />
-    <meta name="theme-color" content="#0c1018" />
+    <meta name="theme-color" content="#100b08" />
     <meta name="mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <meta
@@ -15,10 +15,73 @@
     />
     <title>SM Karate Kids: Asmongold vs HasanAbi</title>
     <link rel="icon" href="./brand/shoemoney-emblem.png" />
-    <script type="module" crossorigin src="./assets/index-zYIAPLiN.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-D3GN02jg.css">
+    <!-- The publisher mark is the first thing the pre-boot card paints, so it
+         is fetched with the document rather than discovered by the card. -->
+    <link rel="preload" as="image" type="image/webp" href="./brand/shoemoney-logo.webp" />
+    <script type="module" crossorigin src="./assets/index-DtpNUeIJ.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-DYEQX951.css">
   </head>
   <body>
+    <!-- The pre-boot publisher card.
+         In the document rather than injected, because it has to cover the gap
+         that opens the moment the page is painted and before this module has
+         even been evaluated. main.ts owns taking it down; the watchdog below is
+         the only part of the feature that does not depend on that code. -->
+    <div id="boot" class="boot" data-state="live" data-measuring="true">
+      <div class="boot-card">
+        <div class="boot-mark">
+          <img
+            class="boot-logo"
+            src="./brand/shoemoney-logo.webp"
+            width="256"
+            height="256"
+            alt="ShoeMoney"
+            decoding="async"
+            fetchpriority="high"
+          />
+        </div>
+        <!--
+          The product's own name. The card had a publisher mark and a publisher
+          credit and nothing that said what you were about to play — a boot
+          screen that names the studio but not the game. The title element
+          already carries this string; it is duplicated here deliberately rather
+          than injected, because this markup has to be on screen before a single
+          module of main.ts has run.
+        -->
+        <h1 class="boot-title">SM Karate Kids</h1>
+        <p class="boot-subtitle">Asmongold vs HasanAbi</p>
+        <!--
+          Opens in the MEASURING state, not at "0%". The one span of cold boot
+          this card cannot put a number on is the module download itself: the
+          code that would report progress is inside the thing being downloaded.
+          Measured on a throttled link, the first app resource lands at 4s and
+          the WebGPU module at 9.1s — nine seconds of a bar reading 0%, which
+          is not "not started", it is "no reporter alive yet". So the honest
+          first state is indeterminate: the track shimmers, and the label says
+          what is actually true. The first advance() call from the app flips
+          this to determinate.
+        -->
+        <p class="boot-stage" id="boot-stage" role="status" aria-live="polite">Downloading the game</p>
+        <div
+          class="boot-bar"
+          id="boot-bar"
+          role="progressbar"
+          aria-label="Loading SM Karate Kids"
+          aria-valuemin="0"
+          aria-valuemax="100"
+          aria-valuenow="0"
+        >
+          <div class="boot-fill" id="boot-fill"></div>
+        </div>
+        <p class="boot-credit">A ShoeMoney AI Labs Game</p>
+
+        <div class="boot-stall" id="boot-stall" hidden>
+          <p class="boot-stall-msg">This is taking longer than it should. The game may have stalled.</p>
+          <button type="button" class="boot-reload" id="boot-reload">Reload</button>
+        </div>
+      </div>
+    </div>
+
     <div id="app">
       <header id="hud">
         <div class="scoreline">
@@ -28,13 +91,15 @@
           </div>
           <div class="clock">
             <span id="timer">30</span>
-            <small id="backend">…</small>
           </div>
           <div class="side right" data-side="1">
             <span class="points" id="points-1" aria-label="Player two score">0</span>
             <span class="name" id="name-1">HasanAbi</span>
           </div>
         </div>
+        <!-- The renderer badge used to live under the timer, in the one slot
+             the eye returns to most. It is diagnostics, not score. -->
+        <small id="backend">…</small>
         <div class="hud-actions">
           <button
             type="button"
@@ -44,7 +109,7 @@
             aria-controls="tech-ref"
             aria-label="Technique reference"
           >
-            MOVES
+            TECHNIQUES
           </button>
           <button
             type="button"
@@ -149,5 +214,30 @@
         </div>
       </footer>
     </div>
+    <script>
+      // The card is removed by the module. If the module never runs — a syntax
+      // error, a blocked request, a device that dies inside the first frame —
+      // nothing else would ever take it down, and a full-screen card with no
+      // way out is the one failure a loading screen is not allowed to be. This
+      // watchdog is the only part of the feature that does not depend on the
+      // code it is covering. It never hides the card; it can only reveal a real
+      // error and a way to retry, which the fast path has already skipped.
+      (function () {
+        var card = document.getElementById('boot');
+        if (!card) return;
+        setTimeout(function () {
+          if (!card.isConnected || card.dataset.state === 'done') return;
+          card.dataset.state = 'stalled';
+          var stall = document.getElementById('boot-stall');
+          if (stall) stall.hidden = false;
+        }, 20000);
+        var reload = document.getElementById('boot-reload');
+        if (reload) {
+          reload.addEventListener('click', function () {
+            location.reload();
+          });
+        }
+      })();
+    </script>
   </body>
 </html>

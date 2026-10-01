@@ -3,14 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- No favicon asset is shipped; without this Chromium probes
+         /favicon.ico on every load and 404s (a real, if harmless,
+         console.error DoD 11's perf.spec.ts catches). The empty data URI
+         tells the browser there's nothing to fetch. -->
+    <link rel="icon" href="data:," />
     <title>Shoeateka</title>
-    <script type="module" crossorigin src="./assets/index-yerCb7Rz.js"></script>
-    <link rel="modulepreload" crossorigin href="./assets/CanvasPool-CTdYh1jO.js">
-    <link rel="modulepreload" crossorigin href="./assets/canvasUtils-BdihyJOf.js">
-    <link rel="modulepreload" crossorigin href="./assets/RenderTargetSystem-bxrdBuGm.js">
-    <link rel="modulepreload" crossorigin href="./assets/getTextureBatchBindGroup-DQMqOj3R.js">
-    <link rel="modulepreload" crossorigin href="./assets/BufferResource-BN_CxRHC.js">
-    <link rel="stylesheet" crossorigin href="./assets/index-B-y9yIer.css">
+    <script type="module" crossorigin src="./assets/index-C0vOyU68.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/CanvasPool-DecUtJxW.js">
+    <link rel="modulepreload" crossorigin href="./assets/Filter-DzecrWg_.js">
+    <link rel="modulepreload" crossorigin href="./assets/canvasUtils-CxYPZET9.js">
+    <link rel="modulepreload" crossorigin href="./assets/Cache-DDo62lBW.js">
+    <link rel="modulepreload" crossorigin href="./assets/GCManagedHash-Bz2ZMBJN.js">
+    <link rel="modulepreload" crossorigin href="./assets/RenderTargetSystem-CgUxHIsn.js">
+    <link rel="modulepreload" crossorigin href="./assets/getTextureBatchBindGroup-DBCrgHVb.js">
+    <link rel="modulepreload" crossorigin href="./assets/GraphicsContext-BBABHYLV.js">
+    <link rel="modulepreload" crossorigin href="./assets/BufferResource-B-thlpip.js">
+    <link rel="stylesheet" crossorigin href="./assets/index-DrFAj1ey.css">
   </head>
   <body>
     <div id="app-root"></div>

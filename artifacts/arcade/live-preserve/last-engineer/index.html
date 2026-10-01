@@ -24,8 +24,8 @@
 <link rel="icon" type="image/x-icon" href="./favicon.ico">
 <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32.png">
 <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
-  <script type="module" crossorigin src="./assets/index-5qva9Jir.js"></script>
-  <link rel="stylesheet" crossorigin href="./assets/index-C_GuHk19.css">
+  <script type="module" crossorigin src="./assets/index-_13qCZFM.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-9RO1FsAQ.css">
   <style data-shoe="gpu-note">.gpu-note{
   position:fixed;
   left:50%;
@@ -102,6 +102,11 @@
     </div>
   </div>
 
+  <!-- Pre-wave only, flush to the bottom edge. It used to sit at bottom:118px, centred —
+       inside the lower sightline, over the viewmodel, in every frame of every wave.
+       runControls.js decides when it is up; styles.css decides where it lives. -->
+  <p id="run-controls-hint" class="run-controls-hint" hidden></p>
+
   <div class="hud__banner" id="banner"></div>
   <div class="hud__subtitle" id="subtitle"></div>
 
@@ -122,9 +127,14 @@
       <span class="weapon__ammo"><b id="ammo-mag">12</b><i>/</i><span id="ammo-reserve">48</span></span>
     </div>
     <div class="mods" id="mod-strip"></div>
+    <!-- The speed multiplier lives here, in the bottom-right HUD cluster, and stays up for
+         the whole run. It is also the way back into the controls when the game is NOT
+         pointer-locked — ?verify=1 and touch, where ESC does not exist. -->
+    <button class="speedchip" id="run-speed-chip" type="button" aria-label="Simulation speed and run controls">
+      <span class="speedchip__label">SPEED</span><span class="speedchip__value" id="run-speed-hud">1&times;</span>
+    </button>
   </div>
 
-  <p id="run-controls-hint" class="run-controls-hint" hidden></p>
   <div class="hud__damagenumbers" id="damage-numbers"></div>
 </div>
 
@@ -143,8 +153,9 @@
     </label>
     <div class="stats" id="menu-stats"></div>
     <details class="hero-leaderboard">
-      <summary>TOP 10 ENGINEERS</summary>
+      <summary id="menu-leaderboard-title">TOP 10 ENGINEERS</summary>
       <p id="menu-leaderboard-status" aria-live="polite"></p>
+      <p id="menu-leaderboard-offline" class="leaderboard__offline" hidden></p>
       <ol id="menu-leaderboard-list"></ol>
       <button id="menu-leaderboard-retry" class="btn" type="button" hidden>Retry leaderboard</button>
     </details>
@@ -160,8 +171,12 @@
 <section id="run-controls" class="run-controls" role="dialog" aria-modal="true" aria-labelledby="run-controls-title" hidden>
   <div class="run-controls__card">
     <p id="run-countdown" class="run-countdown">GET READY · 30s</p>
-    <h2 id="run-controls-title">Ready when you are.</h2>
-    <p>Explore the station, then start the next wave.</p>
+    <!-- The title is rewritten every frame by runControls.js; this is only the first paint.
+         The note below is NOT rewritten, so its visibility is bound to #btn-start-wave in
+         styles.css — the two are shown for exactly the same set of states, which is the
+         only way a static sentence and a live button can be kept from disagreeing. -->
+    <h2 id="run-controls-title">The train doesn’t wait.</h2>
+    <p id="run-controls-note">The next train rolls in on its own when the timer runs out. Press E to send it early and get your exploring done.</p>
     <button class="btn btn--primary" id="btn-start-wave" type="button">START WAVE 1 · E</button>
     <button class="btn" id="btn-resume" type="button">RESUME</button>
     <div class="speed-controls" aria-label="Simulation speed">
@@ -189,6 +204,7 @@
     <section id="arcade-leaderboard" class="arcade-leaderboard" aria-labelledby="arcade-leaderboard-title">
       <h2 id="arcade-leaderboard-title">TOP 10 ENGINEERS</h2>
       <p id="arcade-leaderboard-status" aria-live="polite"></p>
+      <p id="arcade-leaderboard-offline" class="leaderboard__offline" hidden></p>
       <ol id="arcade-leaderboard-list"></ol>
       <button id="arcade-leaderboard-retry" class="btn" type="button" hidden>Retry leaderboard</button>
     </section>
@@ -196,8 +212,12 @@
 </div>
 
 <div id="loading" class="screen screen--loading">
-  <div class="screen__inner">
-    <div class="loadbar"><div class="loadbar__fill" id="load-fill"></div></div>
+  <div class="screen__inner load">
+    <img class="load__mark" src="./brand/shoemoney-logo.png" alt="ShoeMoney">
+    <p class="load__studio">A ShoeMoney AI Labs Game</p>
+    <div class="loadbar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" aria-label="Loading">
+      <div class="loadbar__fill" id="load-fill"></div>
+    </div>
     <p class="loadtext" id="load-text">Booting the 6:15&hellip;</p>
   </div>
 </div>

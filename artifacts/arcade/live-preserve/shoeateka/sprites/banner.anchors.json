@@ -1,0 +1,30 @@
+{
+  "variant": [
+    {
+      "frame": 0,
+      "neck": {
+        "x": 128,
+        "y": 83
+      },
+      "neckAngleDeg": 0,
+      "headZ": "front",
+      "foot": {
+        "y": 500
+      },
+      "facing": "right"
+    },
+    {
+      "frame": 1,
+      "neck": {
+        "x": 128,
+        "y": 83
+      },
+      "neckAngleDeg": 0,
+      "headZ": "front",
+      "foot": {
+        "y": 500
+      },
+      "facing": "right"
+    }
+  ]
+}

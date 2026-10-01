@@ -1,0 +1,69 @@
+{
+  "rank": [
+    {
+      "frame": 0,
+      "neck": {
+        "x": 243,
+        "y": 82
+      },
+      "neckAngleDeg": 0,
+      "headZ": "front",
+      "foot": {
+        "y": 493
+      },
+      "facing": "right"
+    },
+    {
+      "frame": 1,
+      "neck": {
+        "x": 244,
+        "y": 83
+      },
+      "neckAngleDeg": 0,
+      "headZ": "front",
+      "foot": {
+        "y": 495
+      },
+      "facing": "right"
+    },
+    {
+      "frame": 2,
+      "neck": {
+        "x": 246,
+        "y": 83
+      },
+      "neckAngleDeg": 0,
+      "headZ": "front",
+      "foot": {
+        "y": 497
+      },
+      "facing": "right"
+    },
+    {
+      "frame": 3,
+      "neck": {
+        "x": 246,
+        "y": 83
+      },
+      "neckAngleDeg": 0,
+      "headZ": "front",
+      "foot": {
+        "y": 497
+      },
+      "facing": "right"
+    },
+    {
+      "frame": 4,
+      "neck": {
+        "x": 249,
+        "y": 83
+      },
+      "neckAngleDeg": 0,
+      "headZ": "front",
+      "foot": {
+        "y": 500
+      },
+      "facing": "right"
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "frames": {
+    "badge/rank/000": {
+      "frame": {
+        "x": 2,
+        "y": 504,
+        "w": 486,
+        "h": 493
+      },
+      "sourceSize": {
+        "w": 577,
+        "h": 560
+      },
+      "spriteSourceSize": {
+        "x": 40,
+        "y": 47,
+        "w": 486,
+        "h": 493
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "badge/rank/001": {
+      "frame": {
+        "x": 1487,
+        "y": 2,
+        "w": 488,
+        "h": 495
+      },
+      "sourceSize": {
+        "w": 577,
+        "h": 560
+      },
+      "spriteSourceSize": {
+        "x": 40,
+        "y": 45,
+        "w": 488,
+        "h": 495
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "badge/rank/002": {
+      "frame": {
+        "x": 501,
+        "y": 2,
+        "w": 491,
+        "h": 497
+      },
+      "sourceSize": {
+        "w": 577,
+        "h": 560
+      },
+      "spriteSourceSize": {
+        "x": 40,
+        "y": 43,
+        "w": 491,
+        "h": 497
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "badge/rank/003": {
+      "frame": {
+        "x": 994,
+        "y": 2,
+        "w": 491,
+        "h": 497
+      },
+      "sourceSize": {
+        "w": 577,
+        "h": 560
+      },
+      "spriteSourceSize": {
+        "x": 40,
+        "y": 43,
+        "w": 491,
+        "h": 497
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "badge/rank/004": {
+      "frame": {
+        "x": 2,
+        "y": 2,
+        "w": 497,
+        "h": 500
+      },
+      "sourceSize": {
+        "w": 577,
+        "h": 560
+      },
+      "spriteSourceSize": {
+        "x": 40,
+        "y": 40,
+        "w": 497,
+        "h": 500
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    }
+  },
+  "animations": {
+    "rank": [
+      "badge/rank/000",
+      "badge/rank/001",
+      "badge/rank/002",
+      "badge/rank/003",
+      "badge/rank/004"
+    ]
+  },
+  "meta": {
+    "image": "badge-0.webp",
+    "scale": "2",
+    "shoeateka": {
+      "fps": {
+        "rank": 12
+      },
+      "phaseMapped": []
+    }
+  }
+}

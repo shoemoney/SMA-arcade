@@ -1,0 +1,90 @@
+{
+  "frames": {
+    "counterfighter/knockdown/001": {
+      "frame": {
+        "x": 2,
+        "y": 2,
+        "w": 256,
+        "h": 229
+      },
+      "sourceSize": {
+        "w": 395,
+        "h": 341
+      },
+      "spriteSourceSize": {
+        "x": 40,
+        "y": 92,
+        "w": 256,
+        "h": 229
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "counterfighter/knockdown/002": {
+      "frame": {
+        "x": 260,
+        "y": 2,
+        "w": 298,
+        "h": 166
+      },
+      "sourceSize": {
+        "w": 395,
+        "h": 341
+      },
+      "spriteSourceSize": {
+        "x": 40,
+        "y": 155,
+        "w": 298,
+        "h": 166
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "counterfighter/knockdown/003": {
+      "frame": {
+        "x": 560,
+        "y": 2,
+        "w": 315,
+        "h": 67
+      },
+      "sourceSize": {
+        "w": 395,
+        "h": 341
+      },
+      "spriteSourceSize": {
+        "x": 40,
+        "y": 254,
+        "w": 315,
+        "h": 67
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    }
+  },
+  "animations": {
+    "knockdown": [
+      "counterfighter/knockdown/001",
+      "counterfighter/knockdown/002",
+      "counterfighter/knockdown/003"
+    ]
+  },
+  "meta": {
+    "image": "counterfighter-1.webp",
+    "scale": "1.5",
+    "related_multi_packs": [
+      "counterfighter.json"
+    ],
+    "shoeateka": {
+      "fps": {
+        "knockdown": 12
+      },
+      "phaseMapped": []
+    }
+  }
+}

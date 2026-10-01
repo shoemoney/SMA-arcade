@@ -1,0 +1,503 @@
+{
+  "frames": {
+    "warlord/heavySlam/001": {
+      "frame": {
+        "x": 1651,
+        "y": 874,
+        "w": 349,
+        "h": 329
+      },
+      "sourceSize": {
+        "w": 447,
+        "h": 573
+      },
+      "spriteSourceSize": {
+        "x": 40,
+        "y": 224,
+        "w": 349,
+        "h": 329
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "warlord/heavySlam/002": {
+      "frame": {
+        "x": 280,
+        "y": 468,
+        "w": 330,
+        "h": 403
+      },
+      "sourceSize": {
+        "w": 447,
+        "h": 573
+      },
+      "spriteSourceSize": {
+        "x": 40,
+        "y": 150,
+        "w": 330,
+        "h": 403
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "warlord/kickHigh/002": {
+      "frame": {
+        "x": 2,
+        "y": 2,
+        "w": 269,
+        "h": 464
+      },
+      "sourceSize": {
+        "w": 531,
+        "h": 524
+      },
+      "spriteSourceSize": {
+        "x": 40,
+        "y": 40,
+        "w": 269,
+        "h": 464
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "warlord/kickLow/000": {
+      "frame": {
+        "x": 612,
+        "y": 468,
+        "w": 289,
+        "h": 396
+      },
+      "sourceSize": {
+        "w": 482,
+        "h": 464
+      },
+      "spriteSourceSize": {
+        "x": 40,
+        "y": 48,
+        "w": 289,
+        "h": 396
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "warlord/kickLow/001": {
+      "frame": {
+        "x": 903,
+        "y": 468,
+        "w": 402,
+        "h": 379
+      },
+      "sourceSize": {
+        "w": 482,
+        "h": 464
+      },
+      "spriteSourceSize": {
+        "x": 40,
+        "y": 65,
+        "w": 402,
+        "h": 379
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "warlord/kickLow/002": {
+      "frame": {
+        "x": 2,
+        "y": 468,
+        "w": 276,
+        "h": 404
+      },
+      "sourceSize": {
+        "w": 482,
+        "h": 464
+      },
+      "spriteSourceSize": {
+        "x": 40,
+        "y": 40,
+        "w": 276,
+        "h": 404
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "warlord/knockdown/000": {
+      "frame": {
+        "x": 1359,
+        "y": 874,
+        "w": 290,
+        "h": 337
+      },
+      "sourceSize": {
+        "w": 512,
+        "h": 397
+      },
+      "spriteSourceSize": {
+        "x": 40,
+        "y": 40,
+        "w": 290,
+        "h": 337
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "warlord/knockdown/001": {
+      "frame": {
+        "x": 2,
+        "y": 1252,
+        "w": 387,
+        "h": 262
+      },
+      "sourceSize": {
+        "w": 512,
+        "h": 397
+      },
+      "spriteSourceSize": {
+        "x": 40,
+        "y": 115,
+        "w": 387,
+        "h": 262
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "warlord/knockdown/002": {
+      "frame": {
+        "x": 391,
+        "y": 1252,
+        "w": 432,
+        "h": 108
+      },
+      "sourceSize": {
+        "w": 512,
+        "h": 397
+      },
+      "spriteSourceSize": {
+        "x": 40,
+        "y": 269,
+        "w": 432,
+        "h": 108
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "warlord/punchHigh/000": {
+      "frame": {
+        "x": 600,
+        "y": 2,
+        "w": 335,
+        "h": 427
+      },
+      "sourceSize": {
+        "w": 486,
+        "h": 541
+      },
+      "spriteSourceSize": {
+        "x": 40,
+        "y": 94,
+        "w": 335,
+        "h": 427
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "warlord/punchHigh/002": {
+      "frame": {
+        "x": 273,
+        "y": 2,
+        "w": 325,
+        "h": 438
+      },
+      "sourceSize": {
+        "w": 486,
+        "h": 541
+      },
+      "spriteSourceSize": {
+        "x": 40,
+        "y": 83,
+        "w": 325,
+        "h": 438
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "warlord/punchLow/000": {
+      "frame": {
+        "x": 1017,
+        "y": 874,
+        "w": 340,
+        "h": 344
+      },
+      "sourceSize": {
+        "w": 454,
+        "h": 436
+      },
+      "spriteSourceSize": {
+        "x": 40,
+        "y": 72,
+        "w": 340,
+        "h": 344
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "warlord/punchLow/001": {
+      "frame": {
+        "x": 641,
+        "y": 874,
+        "w": 374,
+        "h": 348
+      },
+      "sourceSize": {
+        "w": 454,
+        "h": 436
+      },
+      "spriteSourceSize": {
+        "x": 40,
+        "y": 68,
+        "w": 374,
+        "h": 348
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "warlord/punchLow/002": {
+      "frame": {
+        "x": 1694,
+        "y": 468,
+        "w": 295,
+        "h": 376
+      },
+      "sourceSize": {
+        "w": 454,
+        "h": 436
+      },
+      "spriteSourceSize": {
+        "x": 40,
+        "y": 40,
+        "w": 295,
+        "h": 376
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "warlord/punchMid/000": {
+      "frame": {
+        "x": 310,
+        "y": 874,
+        "w": 329,
+        "h": 375
+      },
+      "sourceSize": {
+        "w": 465,
+        "h": 437
+      },
+      "spriteSourceSize": {
+        "x": 40,
+        "y": 42,
+        "w": 329,
+        "h": 375
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "warlord/punchMid/001": {
+      "frame": {
+        "x": 1307,
+        "y": 468,
+        "w": 385,
+        "h": 377
+      },
+      "sourceSize": {
+        "w": 465,
+        "h": 437
+      },
+      "spriteSourceSize": {
+        "x": 40,
+        "y": 40,
+        "w": 385,
+        "h": 377
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "warlord/punchMid/002": {
+      "frame": {
+        "x": 2,
+        "y": 874,
+        "w": 306,
+        "h": 376
+      },
+      "sourceSize": {
+        "w": 465,
+        "h": 437
+      },
+      "spriteSourceSize": {
+        "x": 40,
+        "y": 41,
+        "w": 306,
+        "h": 376
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "warlord/spinKick/000": {
+      "frame": {
+        "x": 1703,
+        "y": 2,
+        "w": 318,
+        "h": 409
+      },
+      "sourceSize": {
+        "w": 554,
+        "h": 472
+      },
+      "spriteSourceSize": {
+        "x": 40,
+        "y": 43,
+        "w": 318,
+        "h": 409
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "warlord/spinKick/001": {
+      "frame": {
+        "x": 937,
+        "y": 2,
+        "w": 474,
+        "h": 412
+      },
+      "sourceSize": {
+        "w": 554,
+        "h": 472
+      },
+      "spriteSourceSize": {
+        "x": 40,
+        "y": 40,
+        "w": 474,
+        "h": 412
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "warlord/spinKick/002": {
+      "frame": {
+        "x": 1413,
+        "y": 2,
+        "w": 288,
+        "h": 412
+      },
+      "sourceSize": {
+        "w": 554,
+        "h": 472
+      },
+      "spriteSourceSize": {
+        "x": 40,
+        "y": 40,
+        "w": 288,
+        "h": 412
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    }
+  },
+  "animations": {
+    "heavySlam": [
+      "warlord/heavySlam/001",
+      "warlord/heavySlam/002"
+    ],
+    "kickHigh": [
+      "warlord/kickHigh/002"
+    ],
+    "kickLow": [
+      "warlord/kickLow/000",
+      "warlord/kickLow/001",
+      "warlord/kickLow/002"
+    ],
+    "knockdown": [
+      "warlord/knockdown/000",
+      "warlord/knockdown/001",
+      "warlord/knockdown/002"
+    ],
+    "punchHigh": [
+      "warlord/punchHigh/000",
+      "warlord/punchHigh/002"
+    ],
+    "punchLow": [
+      "warlord/punchLow/000",
+      "warlord/punchLow/001",
+      "warlord/punchLow/002"
+    ],
+    "punchMid": [
+      "warlord/punchMid/000",
+      "warlord/punchMid/001",
+      "warlord/punchMid/002"
+    ],
+    "spinKick": [
+      "warlord/spinKick/000",
+      "warlord/spinKick/001",
+      "warlord/spinKick/002"
+    ]
+  },
+  "meta": {
+    "image": "warlord-1.webp",
+    "scale": "2",
+    "related_multi_packs": [
+      "warlord.json"
+    ],
+    "shoeateka": {
+      "fps": {
+        "heavySlam": 12,
+        "knockdown": 12,
+        "spinKick": 12
+      },
+      "phaseMapped": [
+        "kickHigh",
+        "kickLow",
+        "punchHigh",
+        "punchLow",
+        "punchMid"
+      ]
+    }
+  }
+}

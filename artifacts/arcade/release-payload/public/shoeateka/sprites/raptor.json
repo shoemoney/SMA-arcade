@@ -1,0 +1,237 @@
+{
+  "frames": {
+    "raptor/diveAttack/000": {
+      "frame": {
+        "x": 858,
+        "y": 2,
+        "w": 205,
+        "h": 175
+      },
+      "sourceSize": {
+        "w": 295,
+        "h": 235
+      },
+      "spriteSourceSize": {
+        "x": 40,
+        "y": 40,
+        "w": 205,
+        "h": 175
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "raptor/diveAttack/001": {
+      "frame": {
+        "x": 1065,
+        "y": 2,
+        "w": 215,
+        "h": 173
+      },
+      "sourceSize": {
+        "w": 295,
+        "h": 235
+      },
+      "spriteSourceSize": {
+        "x": 40,
+        "y": 42,
+        "w": 215,
+        "h": 173
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "raptor/falling/000": {
+      "frame": {
+        "x": 315,
+        "y": 2,
+        "w": 303,
+        "h": 316
+      },
+      "sourceSize": {
+        "w": 383,
+        "h": 376
+      },
+      "spriteSourceSize": {
+        "x": 40,
+        "y": 40,
+        "w": 303,
+        "h": 316
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "raptor/flightCycle/000": {
+      "frame": {
+        "x": 1282,
+        "y": 2,
+        "w": 117,
+        "h": 133
+      },
+      "sourceSize": {
+        "w": 242,
+        "h": 193
+      },
+      "spriteSourceSize": {
+        "x": 40,
+        "y": 40,
+        "w": 117,
+        "h": 133
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "raptor/flightCycle/001": {
+      "frame": {
+        "x": 1665,
+        "y": 2,
+        "w": 162,
+        "h": 81
+      },
+      "sourceSize": {
+        "w": 242,
+        "h": 193
+      },
+      "spriteSourceSize": {
+        "x": 40,
+        "y": 92,
+        "w": 162,
+        "h": 81
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "raptor/flightCycle/002": {
+      "frame": {
+        "x": 1401,
+        "y": 2,
+        "w": 124,
+        "h": 93
+      },
+      "sourceSize": {
+        "w": 242,
+        "h": 193
+      },
+      "spriteSourceSize": {
+        "x": 40,
+        "y": 80,
+        "w": 124,
+        "h": 93
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "raptor/flightCycle/003": {
+      "frame": {
+        "x": 1527,
+        "y": 2,
+        "w": 136,
+        "h": 88
+      },
+      "sourceSize": {
+        "w": 242,
+        "h": 193
+      },
+      "spriteSourceSize": {
+        "x": 40,
+        "y": 85,
+        "w": 136,
+        "h": 88
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "raptor/hit/000": {
+      "frame": {
+        "x": 2,
+        "y": 2,
+        "w": 311,
+        "h": 379
+      },
+      "sourceSize": {
+        "w": 391,
+        "h": 439
+      },
+      "spriteSourceSize": {
+        "x": 40,
+        "y": 40,
+        "w": 311,
+        "h": 379
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    },
+    "raptor/idle/000": {
+      "frame": {
+        "x": 620,
+        "y": 2,
+        "w": 236,
+        "h": 220
+      },
+      "sourceSize": {
+        "w": 316,
+        "h": 280
+      },
+      "spriteSourceSize": {
+        "x": 40,
+        "y": 40,
+        "w": 236,
+        "h": 220
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      }
+    }
+  },
+  "animations": {
+    "diveAttack": [
+      "raptor/diveAttack/000",
+      "raptor/diveAttack/001"
+    ],
+    "falling": [
+      "raptor/falling/000"
+    ],
+    "flightCycle": [
+      "raptor/flightCycle/000",
+      "raptor/flightCycle/001",
+      "raptor/flightCycle/002",
+      "raptor/flightCycle/003"
+    ],
+    "hit": [
+      "raptor/hit/000"
+    ],
+    "idle": [
+      "raptor/idle/000"
+    ]
+  },
+  "meta": {
+    "image": "raptor-0.webp",
+    "scale": "2",
+    "shoeateka": {
+      "fps": {
+        "diveAttack": 12,
+        "falling": 12,
+        "flightCycle": 12,
+        "hit": 12,
+        "idle": 12
+      },
+      "phaseMapped": []
+    }
+  }
+}

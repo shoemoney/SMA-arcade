@@ -1,0 +1,90 @@
+{
+  "embrace": [
+    {
+      "frame": 0,
+      "neck": {
+        "x": 213,
+        "y": 119
+      },
+      "neckAngleDeg": 0,
+      "headZ": "front",
+      "foot": {
+        "y": 716
+      },
+      "facing": "right"
+    }
+  ],
+  "idle": [
+    {
+      "frame": 0,
+      "neck": {
+        "x": 59,
+        "y": 78
+      },
+      "neckAngleDeg": 0,
+      "headZ": "front",
+      "foot": {
+        "y": 470
+      },
+      "facing": "right"
+    },
+    {
+      "frame": 1,
+      "neck": {
+        "x": 60,
+        "y": 77
+      },
+      "neckAngleDeg": 0,
+      "headZ": "front",
+      "foot": {
+        "y": 462
+      },
+      "facing": "right"
+    }
+  ],
+  "observing": [
+    {
+      "frame": 0,
+      "neck": {
+        "x": 110,
+        "y": 122
+      },
+      "neckAngleDeg": 0,
+      "headZ": "front",
+      "foot": {
+        "y": 734
+      },
+      "facing": "right"
+    }
+  ],
+  "reactionDefend": [
+    {
+      "frame": 0,
+      "neck": {
+        "x": 204,
+        "y": 111
+      },
+      "neckAngleDeg": 0,
+      "headZ": "front",
+      "foot": {
+        "y": 667
+      },
+      "facing": "right"
+    }
+  ],
+  "reactionRecognition": [
+    {
+      "frame": 0,
+      "neck": {
+        "x": 120,
+        "y": 123
+      },
+      "neckAngleDeg": 0,
+      "headZ": "front",
+      "foot": {
+        "y": 739
+      },
+      "facing": "right"
+    }
+  ]
+}
