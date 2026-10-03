@@ -12,3 +12,8 @@ ops/
 # Python bytecode from the excluded tooling
 __pycache__/
 *.pyc
+
+# Per-release privacy-gate working files (inventory, decisions, receipt). They belong outside every
+# outgoing payload and outside the published tree; the clearance they produce is verifiable
+# against the payload fingerprint without checking the working copy in.
+artifacts/arcade/clearance/

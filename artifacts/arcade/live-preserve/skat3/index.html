@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>SKAT3 — Port Carverton</title>
+  <meta name="description" content="A browser skate game. Flick-it tricks, emergent grinds, the landing window, and one million boards." />
+  <style>html,body{background:#0a0d12;margin:0}</style>
+  <script type="module" crossorigin src="./assets/index-Zbj1KUmh.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-KgrsQj8T.css">
+</head>
+<body>
+  <div id="app">
+    <canvas id="boot-canvas"></canvas>
+
+    <!-- The ShoeMoney boot screen. The numbers on it are measured from real
+         stages of Game.init(); see src/ui/boot.ts for why that matters and
+         src/game/game.ts for where each fraction is reported. -->
+    <div id="boot" data-state="loading" data-progress="0">
+      <div class="boot-card">
+        <div class="boot-logo-slot">
+          <img id="boot-logo" class="boot-logo" src="brand/shoemoney-logo.png"
+               alt="ShoeMoney" width="112" height="112" decoding="async" draggable="false" />
+          <span class="boot-logo-fallback" aria-hidden="true">ShoeMoney</span>
+        </div>
+        <h1 class="boot-wordmark">SKAT3</h1>
+        <!-- Exact copy. Do NOT text-transform this: it is a brand line and the
+             casing is part of it. -->
+        <p class="boot-tag">A ShoeMoney AI Labs Game</p>
+        <div id="boot-bar" class="boot-bar" role="progressbar"
+             aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"
+             aria-valuetext="Loading Port Carverton" aria-label="Loading Port Carverton">
+          <div id="boot-fill" class="boot-bar-fill"></div>
+        </div>
+        <div class="boot-foot">
+          <span id="boot-msg" class="boot-msg">starting up</span>
+          <span id="boot-pct" class="boot-pct">0%</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
