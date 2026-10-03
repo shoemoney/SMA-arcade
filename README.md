@@ -96,6 +96,30 @@ Registration alone does **not** give a game score submission: implement the
 Last Engineer-specific subtitle and preview alt text, so generalize that copy when adding a game
 in another setting or genre.
 
+### Releasing one game without rebuilding the other seven
+
+A full release rebuilds **every** configured game from its local source tree. That
+is correct when nobody else is mid-edit and wrong the moment somebody is: the
+release publishes whatever is uncommitted in their checkout, and the symptom is a
+build nobody asked for landing in front of real players.
+
+`build-release.py --release <slug>` exists for that case, and takes one argument:
+
+- `<slug>` is **built from source**, with `SITE_URL` set to its own route.
+- Every **other** game is restored **byte-identically** from
+  `artifacts/arcade/live-preserve/`, so their bundles keep the hashes they
+  already have and no other agent's working tree is read.
+
+`ops/capture-live.sh --release <slug>` populates that directory first, from the
+live tree on the host, excluding `<slug>` — the same value, because a game with no
+preserve tree is a hard stop rather than a silent rebuild. A restored tree that does
+not match its capture fails the build.
+
+Both scripts live in the unpublished tooling, so this note is the durable record of
+the flag's existence and its contract. **The preserve data is committed** (see
+`artifacts/arcade/live-preserve/`) while the tooling that consumes it is not, which
+means a fresh clone has the data and not the mechanism.
+
 ## Release workflow and production layout
 
 Deployment tooling is **not published**. It hardcodes the production host, the deploy key path and
