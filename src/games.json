@@ -20,7 +20,7 @@
   {
     "slug": "shoplifter",
     "title": "Shoplifter",
-    "description": "Twenty-four people. Eight seats. Every trip you make, the other side sends more. Kills score nothing here \u2014 only who you bring home.",
+    "description": "Twenty-four people. Eight seats. Every trip you make, the other side sends more. Kills score nothing here — only who you bring home.",
     "genre": "Helicopter rescue",
     "preview": "/brand/shoplifter-gameplay.gif",
     "poster": "/brand/shoplifter-gameplay.png",
@@ -65,10 +65,19 @@
   {
     "slug": "skat3",
     "title": "SKAT3",
-    "description": "Port Carverton: 137 spots and a million boards to sell. Build speed down the Spillway, kickflip the half-pipe, grind the rainbow rails \u2014 and every trick is named after what the deck actually did, not what you asked it to do.",
+    "description": "Port Carverton: 137 spots and a million boards to sell. Build speed down the Spillway, kickflip the half-pipe, grind the rainbow rails — and every trick is named after what the deck actually did, not what you asked it to do.",
     "genre": "Arcade skateboarding",
     "preview": "/brand/skat3-gameplay.gif",
     "poster": "/brand/skat3-gameplay.png",
     "href": "/skat3/"
+  },
+  {
+    "slug": "derby",
+    "title": "ShoeMoney Derby",
+    "description": "If you're not first, you're last. Twelve rounds of dirt, mud and kickers against up to fifteen rivals: take the flag, outlast the field, or wreck them trying. Damage carries from round to round, and your prize money pays for the repairs.",
+    "genre": "Demolition derby racing",
+    "preview": "/brand/derby-gameplay.gif",
+    "poster": "/brand/derby-gameplay.png",
+    "href": "/derby/"
   }
 ]

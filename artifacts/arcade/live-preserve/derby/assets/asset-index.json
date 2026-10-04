@@ -1,0 +1,367 @@
+{
+  "generatedBy": "scripts/index-assets.mjs",
+  "library": "~/gameassets",
+  "licence": [
+    {
+      "id": "craftpix-topdown-cars",
+      "pack": "top-down-trucks-and-cars-pixel-art-asset-pack",
+      "source": "CraftPix (purchased, 10-year anniversary bundle)",
+      "license": "https://craftpix.net/file-licenses/ (CraftPix 10-year bundle, purchased)",
+      "terms": "CraftPix licence grants use of the assets inside a game project. The pack is NOT redistributed: only selected runtime PNGs are copied into this project, and no archive or unmodified pack is published.",
+      "usedFor": "Canvas2D fallback car sprites and AI rival liveries (one wreck base, tinted per livery)"
+    },
+    {
+      "id": "kenney-cc0-audio",
+      "pack": "Kenney Impact Sounds + Kenney Sci-Fi Sounds",
+      "source": "kenney.nl",
+      "license": "Kenney asset packs (kenney.nl) — CC0 1.0",
+      "terms": "CC0 1.0 Universal — public domain dedication, attribution appreciated, no restriction.",
+      "usedFor": "Impact, engine, wreck, UI, countdown and event audio"
+    }
+  ],
+  "selections": [
+    {
+      "id": "cars/boxline.png",
+      "pack": "craftpix-topdown-cars",
+      "member": "PNG/car1_bright_blue/car_bright_blue4.png",
+      "bytes": 4235,
+      "sha256": "9264c7f6eccaecf1"
+    },
+    {
+      "id": "cars/roundabout.png",
+      "pack": "craftpix-topdown-cars",
+      "member": "PNG/car2_bright_green/car_bright_green3.png",
+      "bytes": 4200,
+      "sha256": "133589b421ea4137"
+    },
+    {
+      "id": "cars/fleetline.png",
+      "pack": "craftpix-topdown-cars",
+      "member": "PNG/car3_bright_yellow/car_bright_yellow2.png",
+      "bytes": 4263,
+      "sha256": "c0c60859885f39b6"
+    },
+    {
+      "id": "cars/longroof.png",
+      "pack": "craftpix-topdown-cars",
+      "member": "PNG/car4_black/car_black3.png",
+      "bytes": 4070,
+      "sha256": "55bf60382ea76496"
+    },
+    {
+      "id": "cars/statesman.png",
+      "pack": "craftpix-topdown-cars",
+      "member": "PNG/car5_blue/car_blue2.png",
+      "bytes": 4246,
+      "sha256": "22829c4a9674ccd3"
+    },
+    {
+      "id": "cars/apex.png",
+      "pack": "craftpix-topdown-cars",
+      "member": "PNG/car8_orange/car_orange2.png",
+      "bytes": 4213,
+      "sha256": "fc406490570e4b13"
+    },
+    {
+      "id": "rivals/white.png",
+      "pack": "craftpix-topdown-cars",
+      "member": "PNG/car9_white/car_white1.png",
+      "bytes": 4358,
+      "sha256": "369c21efc9785330"
+    },
+    {
+      "id": "rivals/green.png",
+      "pack": "craftpix-topdown-cars",
+      "member": "PNG/car2_bright_green/car_bright_green6.png",
+      "bytes": 4053,
+      "sha256": "ccf5354708048864"
+    },
+    {
+      "id": "rivals/orange.png",
+      "pack": "craftpix-topdown-cars",
+      "member": "PNG/car8_orange/car_orange5.png",
+      "bytes": 3918,
+      "sha256": "589748bd23272196"
+    },
+    {
+      "id": "rivals/yellow.png",
+      "pack": "craftpix-topdown-cars",
+      "member": "PNG/car3_bright_yellow/car_bright_yellow6.png",
+      "bytes": 4077,
+      "sha256": "2874fa2989e9097c"
+    },
+    {
+      "id": "rivals/lime.png",
+      "pack": "craftpix-topdown-cars",
+      "member": "PNG/car7_green-yellow/car_green-yellow3.png",
+      "bytes": 4180,
+      "sha256": "0efb02739dc89dfc"
+    },
+    {
+      "id": "rivals/black.png",
+      "pack": "craftpix-topdown-cars",
+      "member": "PNG/car4_black/car_black6.png",
+      "bytes": 4023,
+      "sha256": "2ebb0eb3cc970618"
+    },
+    {
+      "id": "rivals/forest.png",
+      "pack": "craftpix-topdown-cars",
+      "member": "PNG/car6_green/car_green4.png",
+      "bytes": 4240,
+      "sha256": "5292c3abe9174976"
+    },
+    {
+      "id": "rivals/steel.png",
+      "pack": "craftpix-topdown-cars",
+      "member": "PNG/car5_blue/car_blue7.png",
+      "bytes": 3793,
+      "sha256": "0745410fa25c9b8a"
+    },
+    {
+      "id": "wrecks/base.png",
+      "pack": "craftpix-topdown-cars",
+      "member": "PNG/Broken_assets/car_bright_blue4.png",
+      "bytes": 5830,
+      "sha256": "89d255b0f9f77aa0"
+    },
+    {
+      "id": "audio/impact-heavy-a.ogg",
+      "pack": "kenney-cc0-audio",
+      "member": "impact.zip!Audio/impactMetal_heavy_000.ogg",
+      "bytes": 6110,
+      "sha256": "e07045693e4a2b3d"
+    },
+    {
+      "id": "audio/impact-heavy-b.ogg",
+      "pack": "kenney-cc0-audio",
+      "member": "impact.zip!Audio/impactMetal_heavy_001.ogg",
+      "bytes": 7279,
+      "sha256": "83554049f81f4db9"
+    },
+    {
+      "id": "audio/impact-heavy-c.ogg",
+      "pack": "kenney-cc0-audio",
+      "member": "impact.zip!Audio/impactMetal_heavy_002.ogg",
+      "bytes": 5634,
+      "sha256": "b914c8f1eb7c0f34"
+    },
+    {
+      "id": "audio/impact-medium-a.ogg",
+      "pack": "kenney-cc0-audio",
+      "member": "impact.zip!Audio/impactMetal_medium_000.ogg",
+      "bytes": 7117,
+      "sha256": "a96f879fec0864a8"
+    },
+    {
+      "id": "audio/impact-medium-b.ogg",
+      "pack": "kenney-cc0-audio",
+      "member": "impact.zip!Audio/impactMetal_medium_001.ogg",
+      "bytes": 6151,
+      "sha256": "e8a9eaba7c4d2742"
+    },
+    {
+      "id": "audio/impact-medium-c.ogg",
+      "pack": "kenney-cc0-audio",
+      "member": "impact.zip!Audio/impactMetal_medium_002.ogg",
+      "bytes": 5857,
+      "sha256": "7e89ce2ca0dbda95"
+    },
+    {
+      "id": "audio/impact-medium-d.ogg",
+      "pack": "kenney-cc0-audio",
+      "member": "impact.zip!Audio/impactMetal_medium_003.ogg",
+      "bytes": 6964,
+      "sha256": "2a185e2e57211d02"
+    },
+    {
+      "id": "audio/impact-light-a.ogg",
+      "pack": "kenney-cc0-audio",
+      "member": "impact.zip!Audio/impactMetal_light_000.ogg",
+      "bytes": 7651,
+      "sha256": "33b5e6e37c6e9d54"
+    },
+    {
+      "id": "audio/impact-light-b.ogg",
+      "pack": "kenney-cc0-audio",
+      "member": "impact.zip!Audio/impactMetal_light_001.ogg",
+      "bytes": 6967,
+      "sha256": "fba69c467ddd85da"
+    },
+    {
+      "id": "audio/impact-light-c.ogg",
+      "pack": "kenney-cc0-audio",
+      "member": "impact.zip!Audio/impactMetal_light_002.ogg",
+      "bytes": 6804,
+      "sha256": "25a96f90a9a1f88a"
+    },
+    {
+      "id": "audio/barrier-heavy.ogg",
+      "pack": "kenney-cc0-audio",
+      "member": "impact.zip!Audio/impactPlate_heavy_000.ogg",
+      "bytes": 10032,
+      "sha256": "112d4f93ddcc370b"
+    },
+    {
+      "id": "audio/barrier-medium.ogg",
+      "pack": "kenney-cc0-audio",
+      "member": "impact.zip!Audio/impactPlate_medium_000.ogg",
+      "bytes": 10921,
+      "sha256": "b670d30452983369"
+    },
+    {
+      "id": "audio/barrier-light.ogg",
+      "pack": "kenney-cc0-audio",
+      "member": "impact.zip!Audio/impactPlate_light_000.ogg",
+      "bytes": 10474,
+      "sha256": "6e797cf8a5bfc52d"
+    },
+    {
+      "id": "audio/scrape-tin.ogg",
+      "pack": "kenney-cc0-audio",
+      "member": "impact.zip!Audio/impactTin_medium_000.ogg",
+      "bytes": 6509,
+      "sha256": "f4bbee66ca191ec7"
+    },
+    {
+      "id": "audio/wreck-thud.ogg",
+      "pack": "kenney-cc0-audio",
+      "member": "impact.zip!Audio/impactPunch_heavy_000.ogg",
+      "bytes": 11617,
+      "sha256": "b33a8f14068aec24"
+    },
+    {
+      "id": "audio/engine-a.ogg",
+      "pack": "kenney-cc0-audio",
+      "member": "sci-fi.zip!Audio/spaceEngineLow_000.ogg",
+      "bytes": 99760,
+      "sha256": "d7deee8d7217ce63"
+    },
+    {
+      "id": "audio/engine-b.ogg",
+      "pack": "kenney-cc0-audio",
+      "member": "sci-fi.zip!Audio/spaceEngineLow_001.ogg",
+      "bytes": 99120,
+      "sha256": "307dfd8fbfe7e6f2"
+    },
+    {
+      "id": "audio/engine-c.ogg",
+      "pack": "kenney-cc0-audio",
+      "member": "sci-fi.zip!Audio/spaceEngineLow_002.ogg",
+      "bytes": 72688,
+      "sha256": "3b1adf8645a40c35"
+    },
+    {
+      "id": "audio/engine-d.ogg",
+      "pack": "kenney-cc0-audio",
+      "member": "sci-fi.zip!Audio/engineCircular_000.ogg",
+      "bytes": 177470,
+      "sha256": "8ab85f9fa85e9e69"
+    },
+    {
+      "id": "audio/engine-e.ogg",
+      "pack": "kenney-cc0-audio",
+      "member": "sci-fi.zip!Audio/engineCircular_002.ogg",
+      "bytes": 188542,
+      "sha256": "5f364bd42269e111"
+    },
+    {
+      "id": "audio/wreck-explosion.ogg",
+      "pack": "kenney-cc0-audio",
+      "member": "sci-fi.zip!Audio/explosionCrunch_002.ogg",
+      "bytes": 47907,
+      "sha256": "be2b8ddc62e4a24c"
+    },
+    {
+      "id": "audio/wreck-boom.ogg",
+      "pack": "kenney-cc0-audio",
+      "member": "sci-fi.zip!Audio/lowFrequency_explosion_001.ogg",
+      "bytes": 9408,
+      "sha256": "cdda50600a4928f2"
+    },
+    {
+      "id": "audio/countdown-beep.ogg",
+      "pack": "kenney-cc0-audio",
+      "member": "sci-fi.zip!Audio/laserSmall_000.ogg",
+      "bytes": 7286,
+      "sha256": "72b589eadd417812"
+    },
+    {
+      "id": "audio/go-beep.ogg",
+      "pack": "kenney-cc0-audio",
+      "member": "sci-fi.zip!Audio/laserLarge_000.ogg",
+      "bytes": 25566,
+      "sha256": "a56d95794cd732d6"
+    },
+    {
+      "id": "audio/lap-blip.ogg",
+      "pack": "kenney-cc0-audio",
+      "member": "sci-fi.zip!Audio/computerNoise_000.ogg",
+      "bytes": 119024,
+      "sha256": "1527944e16eb14b4"
+    },
+    {
+      "id": "audio/checkpoint.ogg",
+      "pack": "kenney-cc0-audio",
+      "member": "sci-fi.zip!Audio/forceField_000.ogg",
+      "bytes": 25672,
+      "sha256": "c2916f2a062c8ddd"
+    },
+    {
+      "id": "audio/purchase.ogg",
+      "pack": "kenney-cc0-audio",
+      "member": "sci-fi.zip!Audio/doorClose_000.ogg",
+      "bytes": 20369,
+      "sha256": "c9134651ebbd7c01"
+    },
+    {
+      "id": "audio/repair.ogg",
+      "pack": "kenney-cc0-audio",
+      "member": "sci-fi.zip!Audio/forceField_002.ogg",
+      "bytes": 27647,
+      "sha256": "051b0eafc479695a"
+    },
+    {
+      "id": "audio/finish.ogg",
+      "pack": "kenney-cc0-audio",
+      "member": "sci-fi.zip!Audio/laserRetro_000.ogg",
+      "bytes": 12588,
+      "sha256": "2a203a007d24cc7e"
+    },
+    {
+      "id": "audio/ui-click.ogg",
+      "pack": "kenney-cc0-audio",
+      "member": "sci-fi.zip!Audio/computerNoise_002.ogg",
+      "bytes": 130861,
+      "sha256": "6ae9bb261c6536d1"
+    },
+    {
+      "id": "audio/ui-nav.ogg",
+      "pack": "kenney-cc0-audio",
+      "member": "sci-fi.zip!Audio/computerNoise_001.ogg",
+      "bytes": 120178,
+      "sha256": "29b4842f6d8c0ba2"
+    },
+    {
+      "id": "audio/damage-warn.ogg",
+      "pack": "kenney-cc0-audio",
+      "member": "sci-fi.zip!Audio/slime_000.ogg",
+      "bytes": 20870,
+      "sha256": "480ee82b690136ea"
+    },
+    {
+      "id": "jeremylikeness.png",
+      "pack": "project-supplied",
+      "member": "assets/reference/jeremylikeness.png",
+      "bytes": 1507201,
+      "sha256": "b4ab1485d715ecac"
+    },
+    {
+      "id": "shoemoney-inc-logo.png",
+      "pack": "project-supplied",
+      "member": "assets/branding/shoemoney-inc-logo.png",
+      "bytes": 127040,
+      "sha256": "3df21e70dfc60b28"
+    }
+  ]
+}

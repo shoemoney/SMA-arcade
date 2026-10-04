@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <rect width="32" height="32" rx="6" fill="#14171c"/>
+  <path d="M16 4 27 16 16 28 5 16Z" fill="none" stroke="#4d86d6" stroke-width="2.5"/>
+  <text x="16" y="22" font-family="Arial Black, system-ui, sans-serif" font-size="15"
+        font-weight="900" fill="#ffb020" text-anchor="middle">7</text>
+</svg>

@@ -38,5 +38,10 @@
     "title": "SKAT3",
     "order": "highest",
     "limit": 10
+  },
+  "derby": {
+    "title": "ShoeMoney Derby",
+    "order": "highest",
+    "limit": 10
   }
 }
