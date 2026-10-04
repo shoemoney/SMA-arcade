@@ -18,8 +18,8 @@
     <!-- The publisher mark is the first thing the pre-boot card paints, so it
          is fetched with the document rather than discovered by the card. -->
     <link rel="preload" as="image" type="image/webp" href="./brand/shoemoney-logo.webp" />
-    <script type="module" crossorigin src="./assets/index-Bd4cT_Iw.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-DKQOo3fd.css">
+    <script type="module" crossorigin src="./assets/index-CfkzgZZi.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-o4HekePt.css">
   </head>
   <body>
     <!-- The pre-boot publisher card.
@@ -144,6 +144,12 @@
             <button type="button" id="settings-close" class="icon-btn" aria-label="Close settings">&#10005;</button>
           </div>
           <div class="sheet-body">
+            <fieldset class="setting-group" id="opt-fighter" aria-describedby="opt-fighter-hint">
+              <legend>Your fighter</legend>
+            </fieldset>
+            <p id="opt-fighter-hint" class="setting-hint">
+              In a tournament, a change mid-run takes effect from the next round.
+            </p>
             <label class="setting-row">
               <input type="checkbox" id="opt-reduced-motion" />
               <span>Reduced motion</span>
@@ -189,6 +195,11 @@
           </div>
           <div class="sheet-body" id="tech-ref-list"></div>
         </div>
+
+        <button type="button" id="pause" class="pause" hidden>
+          <span class="pause-word">PAUSED</span>
+          <span class="pause-hint">Tap or press any key to resume</span>
+        </button>
       </main>
 
       <footer id="pad">
